@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="confirm_delete_album">
+        <item quantity="other">Usunąć %1$s albumów (razem: %2$s)?</item>
+        <item quantity="one">Usunąć ten album (razem: %s)?</item>
+    </plurals>
+    <plurals name="confirm_delete_has_cloud_local_image_video_from_homepage">
+        <item quantity="other">Usunąć %s elementów z tego urządzenia i Chmury?</item>
+    </plurals>
+    <plurals name="confirm_delete_has_cloud_local_image_from_homepage">
+        <item quantity="other">Usunąć %s zdjęć z tego urządzenia i Chmury?</item>
+        <item quantity="one">Usunąć zdjęcie z tego urządzenia i Chmury?</item>
+    </plurals>
+    <plurals name="confirm_delete_has_cloud_local_video_from_homepage">
+        <item quantity="other">Usunąć %s filmów z tego urządzenia i Chmury?</item>
+        <item quantity="one">Usunąć film z tego urządzenia i Chmury?</item>
+    </plurals>
+    <plurals name="confirm_delete_has_cloud_image_video_from_homepage">
+        <item quantity="other">Usunąć %s elementów z Chmury?</item>
+    </plurals>
+    <plurals name="confirm_delete_has_cloud_image_from_homepage">
+        <item quantity="other">Usunąć %s zdjęć z Chmury?</item>
+        <item quantity="one">Usunąć to zdjęcie z Chmury?</item>
+    </plurals>
+    <plurals name="confirm_delete_has_cloud_video_from_homepage">
+        <item quantity="other">Usunąć %s filmów z Chmury?</item>
+        <item quantity="one">Usunąć ten film z Chmury?</item>
+    </plurals>
+    <plurals name="confirm_delete_has_cloud_image_video">
+        <item quantity="other">Usunąć %s elementów z tego albumu?</item>
+    </plurals>
+    <plurals name="confirm_delete_has_local_image_video">
+        <item quantity="other">Usunąć %s elementów?</item>
+    </plurals>
+    <plurals name="confirm_delete_has_cloud_image">
+        <item quantity="other">Usunąć %s zdjęć z tego albumu?</item>
+        <item quantity="one">Usunąć zdjęcie z tego albumu?</item>
+    </plurals>
+    <plurals name="confirm_delete_has_local_image">
+        <item quantity="other">Usunąć %s zdjęć?</item>
+        <item quantity="one">Usunąć to zdjęcie?</item>
+    </plurals>
+    <plurals name="confirm_delete_has_cloud_video">
+        <item quantity="other">Usunąć %s filmów z tego albumu?</item>
+        <item quantity="one">Usunąć %s filmów z tego albumu?</item>
+    </plurals>
+    <plurals name="confirm_delete_has_local_video">
+        <item quantity="other">Usunąć %s filmów?</item>
+        <item quantity="one">Usunąć ten film?</item>
+    </plurals>
+    <plurals name="confirm_delete_video_from_many_albums">
+        <item quantity="other">Usunąć %1$d filmów z %2$d albumów?</item>
+        <item quantity="one">Usunąć film z %2$d albumów?</item>
+    </plurals>
+    <plurals name="confirm_delete_image_from_many_albums">
+        <item quantity="other">Usunąć %1$d obrazów z %2$d albumów?</item>
+        <item quantity="one">Usunąć obraz z %2$d albumów</item>
+    </plurals>
+    <plurals name="number_of_items_selected">
+        <item quantity="other">Wybrane: %1$d</item>
+        <item quantity="zero">Wybrane: %1$d</item>
+        <item quantity="one">Wybrane: %1$d</item>
+    </plurals>
+    <plurals name="number_of_pictures">
+        <item quantity="other">%1$d</item>
+        <item quantity="zero">%1$d</item>
+        <item quantity="one">%1$d</item>
+    </plurals>
+    <plurals name="how_many_pics">
+        <item quantity="other">Zdjęć: %d</item>
+        <item quantity="one">Zdjęć: %d</item>
+    </plurals>
+    <plurals name="how_many_videos">
+        <item quantity="other">Filmów: %d</item>
+        <item quantity="one">Filmów: %d</item>
+    </plurals>
+    <plurals name="how_many_sub_folders">
+        <item quantity="other">Katalogów: %d</item>
+        <item quantity="one">Katalogów: %d</item>
+    </plurals>
+    <plurals name="message_no_delete_access_with_count">
+        <item quantity="other">Nie masz uprawnień do usunięcia %d plików</item>
+        <item quantity="one">Nie masz uprawnień do usunięcia %d pliku</item>
+    </plurals>
+    <plurals name="pick_with_limited_upper_bound_title">
+        <item quantity="other">Możesz wybrać do %d zdjęć</item>
+        <item quantity="one">Możesz wybrać do %d zdjęć</item>
+    </plurals>
+    <plurals name="number_of_images">
+        <item quantity="other">%1$d zdjęć</item>
+        <item quantity="zero">%1$d zdjęć</item>
+        <item quantity="one">%1$d zdjęcie</item>
+    </plurals>
+    <plurals name="number_of_items">
+        <item quantity="other">%1$d elementów</item>
+        <item quantity="zero">%1$d elementów</item>
+        <item quantity="one">%1$d element</item>
+    </plurals>
+    <plurals name="seconds">
+        <item quantity="other">%d sekund</item>
+        <item quantity="one">1 sekunda</item>
+    </plurals>
+    <plurals name="ignore_faces_alert_msg">
+        <item quantity="other">Nie pokazywać tych twarzy?</item>
+        <item quantity="one">Nie pokazywać tej twarzy?</item>
+    </plurals>
+    <plurals name="more_face">
+        <item quantity="other">%1$s z %2$s</item>
+        <item quantity="one">%1$s z %2$s</item>
+    </plurals>
+    <plurals name="baby_album_sharer_recommand_old_pictures">
+        <item quantity="other">Może być dodanych %1$d zdjęć %2$s</item>
+        <item quantity="one">Może być dodane %1$d zdjęcie %2$s</item>
+    </plurals>
+    <plurals name="baby_album_sharer_recommand_new_pictures">
+        <item quantity="other">Może być dodanych %1$d zdjęć %2$s</item>
+        <item quantity="one">Może być dodane %1$d zdjęcie %2$s</item>
+    </plurals>
+    <plurals name="baby_age_subtitle_year">
+        <item quantity="other">"%1$d lat "</item>
+        <item quantity="one">"%1$d rok "</item>
+    </plurals>
+    <plurals name="baby_age_subtitle_month">
+        <item quantity="other">"%1$d miesięcy "</item>
+        <item quantity="one">"%1$d miesiąc "</item>
+    </plurals>
+    <plurals name="baby_age_subtitle_day">
+        <item quantity="other">%1$d dni</item>
+        <item quantity="one">%1$d dzień</item>
+    </plurals>
+    <plurals name="baby_album_share_user_count_tip">
+        <item quantity="other">%1$d</item>
+        <item quantity="one">%1$d</item>
+    </plurals>
+    <plurals name="number_of_images_to_upload">
+        <item quantity="other">%1$d zdjęć do synchronizacji</item>
+        <item quantity="one">1 zdjęcie do synchronizacji</item>
+    </plurals>
+    <plurals name="number_of_videos_to_upload">
+        <item quantity="other">%1$d filmów do synchronizacji</item>
+        <item quantity="one">1 film do synchronizacji</item>
+    </plurals>
+    <plurals name="number_of_images_and_videos_to_upload">
+        <item quantity="other">%1$d filmów i zdjęć do synchronizacji</item>
+        <item quantity="one">1 film i zdjęcie do synchronizacji</item>
+    </plurals>
+    <plurals name="number_of_uploading_images">
+        <item quantity="other">Synchronizowanie %1$d zdjęć…</item>
+        <item quantity="one">Synchronizowanie zdjęcia…</item>
+    </plurals>
+    <plurals name="number_of_uploading_videos">
+        <item quantity="other">Synchronizowanie %1$d filmów…</item>
+        <item quantity="one">Synchronizowanie filmu…</item>
+    </plurals>
+    <plurals name="number_of_uploading_images_and_videos">
+        <item quantity="other">Synchronizowanie %1$d filmów i zdjęć…</item>
+        <item quantity="one">Synchronizowanie filmu i zdjęć…</item>
+    </plurals>
+</resources>

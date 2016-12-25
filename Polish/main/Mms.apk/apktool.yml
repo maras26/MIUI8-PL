@@ -1,0 +1,39 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: Mms.apk
+compressionType: false
+doNotCompress:
+- xml
+- dex
+- arsc
+- res/raw-pl/sms_frequently_used_phrase
+- db
+- res/raw-zh-CN/sms_frequently_used_phrase
+- res/raw-zh-TW/sms_frequently_used_phrase
+- res/raw/microlog
+- res/raw/sms_frequently_used_phrase
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: com.android.mms
+sdkInfo:
+  minSdkVersion: '21'
+  targetSdkVersion: '21'
+sharedLibrary: false
+unknownFiles:
+  miui_push_version: '8'
+  com/xiaomi/smack/package.html: '8'
+  com/xiaomi/smack/debugger/package.html: '8'
+  com/xiaomi/smack/filter/package.html: '8'
+  com/xiaomi/smack/packet/package.html: '8'
+  com/xiaomi/smack/provider/package.html: '8'
+  com/xiaomi/smack/util/package.html: '8'
+usesFramework:
+  ids:
+  - 1
+  - 16
+  - 18
+  tag: null
+version: 2.1.0-285da3-SNAPSHOT
+versionInfo:
+  versionCode: '21'
+  versionName: 5.0.2-6.2.25

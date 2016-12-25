@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="boot_msg_text">
+        <item>--== MIUIPolska.pl ==--</item>
+        <item>--== MIUIPolska.pl ==--</item>
+        <item>Optymalizacja aplikacji.</item>
+        <item>Optymalizacja aplikacji..</item>
+        <item>Optymalizacja aplikacji...</item>
+        <item>Optymalizacja aplikacji....</item>
+        <item>Podziel się wrażeniami na miuipolska.pl/forum</item>
+        <item>Podziel się wrażeniami na miuipolska.pl/forum</item>
+        <item>Podziel się wrażeniami na miuipolska.pl/forum</item>
+        <item>Masz problem z telefonem? Odwiedź MiCenter.pl - serwis Xiaomi</item>
+        <item>Masz problem z telefonem? Odwiedź MiCenter.pl - serwis Xiaomi</item>
+        <item>Masz problem z telefonem? Odwiedź MiCenter.pl - serwis Xiaomi</item>
+        <item>Aktualizacja zakończona</item>
+    </string-array>
+</resources>

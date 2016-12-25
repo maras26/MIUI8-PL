@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="auto_memory_clean">
+        <item>Po minucie</item>
+        <item>Po 5 min</item>
+        <item>Po 10 min</item>
+        <item>Po 30 min</item>
+        <item>Nigdy</item>
+    </string-array>
+    <string-array name="power_dialog_auto_clean_memory_items">
+        <item>Po minucie</item>
+        <item>Po 5 min</item>
+        <item>Po 10 min</item>
+        <item>Nigdy</item>
+    </string-array>
+    <string-array name="power_dialog_sleep_items">
+        <item>15 s</item>
+        <item>30 s</item>
+        <item>1 min</item>
+        <item>2 min</item>
+        <item>5 min</item>
+        <item>10 min</item>
+        <item>Nie usypiaj</item>
+    </string-array>
+    <string-array name="power_dialog_cpu_state_items">
+        <item>Wydajny</item>
+        <item>Normalny</item>
+    </string-array>
+    <string-array name="power_dialog_wifi_internet_state_items">
+        <item>Wyłącz</item>
+        <item>Włącz</item>
+        <item>Bez zmian</item>
+    </string-array>
+    <string-array name="power_dialog_vibration_items">
+        <item>Nie wibruj</item>
+        <item>Wibruj w trybie cichym</item>
+        <item>Zawsze wibruj</item>
+    </string-array>
+    <string-array name="alarm_repeat_type">
+        <item>Tylko raz</item>
+        <item>Codziennie</item>
+        <item>W dni pracy (chińskie)</item>
+        <item>Od poniedziałku do piątku</item>
+        <item>Własne</item>
+    </string-array>
+    <string-array name="alarm_repeat_type_no_workdays">
+        <item>Tylko raz</item>
+        <item>Codziennie</item>
+        <item>Od poniedziałku do piątku</item>
+        <item>Własne</item>
+    </string-array>
+</resources>

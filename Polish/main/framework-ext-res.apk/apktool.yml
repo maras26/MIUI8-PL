@@ -1,0 +1,25 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: framework-ext-res.apk
+compressionType: false
+doNotCompress:
+- arsc
+- xml
+isFrameworkApk: true
+packageInfo:
+  forcedPackageId: '16'
+  renameManifestPackage: com.miui.rom
+sdkInfo:
+  minSdkVersion: '21'
+  targetSdkVersion: '21'
+sharedLibrary: false
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  - 16
+  - 18
+  tag: null
+version: 2.1.0-285da3-SNAPSHOT
+versionInfo:
+  versionCode: '1010000'
+  versionName: 1.1.0.0

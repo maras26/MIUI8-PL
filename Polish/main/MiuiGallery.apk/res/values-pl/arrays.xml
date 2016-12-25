@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="slideshow_time_entries">
+        <item>5 min</item>
+        <item>15 min</item>
+        <item>30 min</item>
+        <item>1 godz.</item>
+        <item>Ciągły</item>
+    </string-array>
+    <string-array name="baby_sexy">
+        <item>Chłopiec</item>
+        <item>Dziewczynka</item>
+    </string-array>
+    <string-array name="owner_relation">
+        <item>Ojciec</item>
+        <item>Mama</item>
+        <item>Dziadek (od ojca)</item>
+        <item>Babcia (od ojca)</item>
+        <item>Dziadek (od matki)</item>
+        <item>Babcia (od matki)</item>
+    </string-array>
+</resources>

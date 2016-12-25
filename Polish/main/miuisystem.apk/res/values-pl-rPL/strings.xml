@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="android_ringtone_silent">Brak</string>
+    <string name="android_ringtone_unknown">Nieznany dźwięk</string>
+    <string name="presentation_payphone">Płatny</string>
+    <string name="presentation_private">Prywatny</string>
+    <string name="presentation_unknown">Nieznany</string>
+    <string name="yellow_page_module_sms_sent">Wiadomość SMS wysłana</string>
+    <string name="yellow_page_sms_disabled_in_privacy_mode">Nie można wysyłać SMS w trybie Poufnym</string>
+    <string name="yellow_page_sms_send_failed">Nie można wysłać SMS</string>
+    <string name="yellow_page_sms_sending">Wysyłanie…</string>
+    <string name="yellow_page_unable_send_sms">Nie można wysłać SMS</string>
+    <string name="device_hongmi">Redmi</string>
+    <string name="device_pad">MiPad</string>
+    <string name="device_xiaomi">Telefon MI</string>
+    <string name="miui_device_name">Android</string>
+    <string name="day_following_good_friday">Czwartek</string>
+    <string name="no_notification_tips">Brak powiadomień</string>
+    <string name="android_ringtone_default_with_actual">Domyślny dzwonek (%1$s)</string>
+    <string name="cloud_state_disabled">Synchronizacja z Chmurą wył</string>
+    <string name="cloud_state_finished">Zsynchronizowano z Chmurą</string>
+    <string name="cloud_state_syncing">Zsynchronizowano z Chmurą</string>
+    <string name="default_name">Domyślnie</string>
+    <string name="group_name_contacts">Kontakty</string>
+    <string name="group_name_coworkers">Współpracownicy</string>
+    <string name="group_name_family">Rodzina</string>
+    <string name="group_name_friends">Znajomi</string>
+    <string name="maml_component_customization_title">Ustawienia</string>
+    <string name="resource_select">Wybierz</string>
+</resources>

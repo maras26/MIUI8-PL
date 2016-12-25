@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="picker_number_of_items_selected">
+        <item quantity="other">Zaznaczono: %1$d</item>
+        <item quantity="zero">Zaznaczono: %1$d</item>
+        <item quantity="one">Zaznaczono: %1$d</item>
+    </plurals>
+    <plurals name="numberOfPullUpdateReport">
+        <item quantity="other">Aktualizowano %d wpisów</item>
+        <item quantity="one">Aktualizowano %d wpis</item>
+    </plurals>
+    <plurals name="numberFoot">
+        <item quantity="other">%s stóp</item>
+        <item quantity="one">%s stopa</item>
+    </plurals>
+    <plurals name="numberInch">
+        <item quantity="other">%s cali</item>
+        <item quantity="one">%s cal</item>
+    </plurals>
+    <plurals name="weight_match_user">
+        <item quantity="other">%1$d dopasowań</item>
+        <item quantity="one">%1$d dopasowanie</item>
+    </plurals>
+</resources>
