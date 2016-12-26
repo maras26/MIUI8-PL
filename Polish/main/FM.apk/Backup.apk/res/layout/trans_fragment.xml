@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:backup="http://schemas.android.com/apk/res/com.miui.backup">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/lyt_trans_bg" android:background="#ff4cbfa0" android:layout_width="fill_parent" android:layout_height="267.0dip">
+        <TextView android:textAppearance="@miui:style/TextAppearance.WindowTitle" android:textSize="14.0sp" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="@string/trans_one_key_migrate" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/lyt_trans_icon" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip">
+            <ImageView android:id="@id/img_old_device" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_trans_old_finish" />
+            <ImageView android:id="@id/img_trans_arrows" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="19.0dip" android:layout_marginEnd="19.0dip" />
+            <ImageView android:id="@id/img_new_device" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_newphone" />
+            <ImageView android:id="@id/img_two_star" android:paddingBottom="55.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_star2" android:paddingStart="5.0dip" />
+        </LinearLayout>
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="@dimen/trans_text_size" android:textColor="#ccffffff" android:gravity="center" android:id="@id/txt_descript" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" />
+    </LinearLayout>
+    <ListView android:id="@id/lst_detail_list" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <TextView android:textSize="14.0sp" android:textColor="#cc000000" android:gravity="center" android:id="@id/txt_wait_trans" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/trans_wait_trans_data" android:layout_weight="1.0" android:lineSpacingExtra="7.0dip" />
+    <ImageView android:background="#ffe5e5e5" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginStart="@dimen/progress_divider_margin_horizontal" android:layout_marginEnd="@dimen/progress_divider_margin_horizontal" />
+    <Button android:id="@id/btn_cancel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bottom_button_margin_vertical" android:layout_marginBottom="@dimen/trans_bottom_button_padding_bottom" android:text="@string/cancel" android:layout_marginStart="@dimen/trans_bottom_content_padding_horizontal" android:layout_marginEnd="@dimen/trans_bottom_content_padding_horizontal" />
+</LinearLayout>

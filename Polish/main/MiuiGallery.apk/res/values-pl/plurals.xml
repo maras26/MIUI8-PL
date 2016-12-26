@@ -1,136 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="confirm_delete_album">
-        <item quantity="other">Usunąć %1$s albumów (razem: %2$s)?</item>
-        <item quantity="one">Usunąć ten album (razem: %s)?</item>
-    </plurals>
-    <plurals name="confirm_delete_has_cloud_local_image_video_from_homepage">
-        <item quantity="other">Usunąć %s elementów z tego urządzenia i Chmury?</item>
-    </plurals>
-    <plurals name="confirm_delete_has_cloud_local_image_from_homepage">
-        <item quantity="other">Usunąć %s zdjęć z tego urządzenia i Chmury?</item>
-        <item quantity="one">Usunąć zdjęcie z tego urządzenia i Chmury?</item>
-    </plurals>
-    <plurals name="confirm_delete_has_cloud_local_video_from_homepage">
-        <item quantity="other">Usunąć %s filmów z tego urządzenia i Chmury?</item>
-        <item quantity="one">Usunąć film z tego urządzenia i Chmury?</item>
-    </plurals>
-    <plurals name="confirm_delete_has_cloud_image_video_from_homepage">
-        <item quantity="other">Usunąć %s elementów z Chmury?</item>
-    </plurals>
-    <plurals name="confirm_delete_has_cloud_image_from_homepage">
-        <item quantity="other">Usunąć %s zdjęć z Chmury?</item>
-        <item quantity="one">Usunąć to zdjęcie z Chmury?</item>
-    </plurals>
-    <plurals name="confirm_delete_has_cloud_video_from_homepage">
-        <item quantity="other">Usunąć %s filmów z Chmury?</item>
-        <item quantity="one">Usunąć ten film z Chmury?</item>
-    </plurals>
-    <plurals name="confirm_delete_has_cloud_image_video">
-        <item quantity="other">Usunąć %s elementów z tego albumu?</item>
-    </plurals>
-    <plurals name="confirm_delete_has_local_image_video">
-        <item quantity="other">Usunąć %s elementów?</item>
-    </plurals>
-    <plurals name="confirm_delete_has_cloud_image">
-        <item quantity="other">Usunąć %s zdjęć z tego albumu?</item>
-        <item quantity="one">Usunąć zdjęcie z tego albumu?</item>
-    </plurals>
-    <plurals name="confirm_delete_has_local_image">
-        <item quantity="other">Usunąć %s zdjęć?</item>
-        <item quantity="one">Usunąć to zdjęcie?</item>
-    </plurals>
-    <plurals name="confirm_delete_has_cloud_video">
-        <item quantity="other">Usunąć %s filmów z tego albumu?</item>
-        <item quantity="one">Usunąć %s filmów z tego albumu?</item>
-    </plurals>
-    <plurals name="confirm_delete_has_local_video">
-        <item quantity="other">Usunąć %s filmów?</item>
-        <item quantity="one">Usunąć ten film?</item>
-    </plurals>
-    <plurals name="confirm_delete_video_from_many_albums">
-        <item quantity="other">Usunąć %1$d filmów z %2$d albumów?</item>
-        <item quantity="one">Usunąć film z %2$d albumów?</item>
-    </plurals>
-    <plurals name="confirm_delete_image_from_many_albums">
-        <item quantity="other">Usunąć %1$d obrazów z %2$d albumów?</item>
-        <item quantity="one">Usunąć obraz z %2$d albumów</item>
-    </plurals>
-    <plurals name="number_of_items_selected">
-        <item quantity="other">Wybrane: %1$d</item>
-        <item quantity="zero">Wybrane: %1$d</item>
-        <item quantity="one">Wybrane: %1$d</item>
-    </plurals>
-    <plurals name="number_of_pictures">
-        <item quantity="other">%1$d</item>
-        <item quantity="zero">%1$d</item>
-        <item quantity="one">%1$d</item>
-    </plurals>
-    <plurals name="how_many_pics">
-        <item quantity="other">Zdjęć: %d</item>
-        <item quantity="one">Zdjęć: %d</item>
-    </plurals>
-    <plurals name="how_many_videos">
-        <item quantity="other">Filmów: %d</item>
-        <item quantity="one">Filmów: %d</item>
-    </plurals>
-    <plurals name="how_many_sub_folders">
-        <item quantity="other">Katalogów: %d</item>
-        <item quantity="one">Katalogów: %d</item>
-    </plurals>
-    <plurals name="message_no_delete_access_with_count">
-        <item quantity="other">Nie masz uprawnień do usunięcia %d plików</item>
-        <item quantity="one">Nie masz uprawnień do usunięcia %d pliku</item>
-    </plurals>
-    <plurals name="pick_with_limited_upper_bound_title">
-        <item quantity="other">Możesz wybrać do %d zdjęć</item>
-        <item quantity="one">Możesz wybrać do %d zdjęć</item>
-    </plurals>
-    <plurals name="number_of_images">
-        <item quantity="other">%1$d zdjęć</item>
-        <item quantity="zero">%1$d zdjęć</item>
-        <item quantity="one">%1$d zdjęcie</item>
-    </plurals>
-    <plurals name="number_of_items">
-        <item quantity="other">%1$d elementów</item>
-        <item quantity="zero">%1$d elementów</item>
-        <item quantity="one">%1$d element</item>
-    </plurals>
-    <plurals name="seconds">
-        <item quantity="other">%d sekund</item>
-        <item quantity="one">1 sekunda</item>
-    </plurals>
     <plurals name="ignore_faces_alert_msg">
-        <item quantity="other">Nie pokazywać tych twarzy?</item>
-        <item quantity="one">Nie pokazywać tej twarzy?</item>
+        <item quantity="other">Nie pokazywać tych osób?</item>
+        <item quantity="one">Nie pokazywać tej osoby?</item>
     </plurals>
     <plurals name="more_face">
-        <item quantity="other">%1$s z %2$s</item>
-        <item quantity="one">%1$s z %2$s</item>
+        <item quantity="other">%1$s zdjęć %2$s >></item>
+        <item quantity="one">%1$s zdjęcie %2$s >></item>
+    </plurals>
+    <plurals name="age_year">
+        <item quantity="other">%d lat</item>
+        <item quantity="one">%d rok</item>
+    </plurals>
+    <plurals name="age_month">
+        <item quantity="other">%d miesięcy</item>
+        <item quantity="one">%d miesiąc</item>
+    </plurals>
+    <plurals name="age_day">
+        <item quantity="other">%d dni</item>
+        <item quantity="one">%d dzień</item>
     </plurals>
     <plurals name="baby_album_sharer_recommand_old_pictures">
-        <item quantity="other">Może być dodanych %1$d zdjęć %2$s</item>
-        <item quantity="one">Może być dodane %1$d zdjęcie %2$s</item>
+        <item quantity="other">%1$d photos of %2$s will be added</item>
+        <item quantity="one">%1$d photo of %2$s will be added</item>
     </plurals>
     <plurals name="baby_album_sharer_recommand_new_pictures">
-        <item quantity="other">Może być dodanych %1$d zdjęć %2$s</item>
-        <item quantity="one">Może być dodane %1$d zdjęcie %2$s</item>
+        <item quantity="other">%1$d photos of %2$s will be added</item>
+        <item quantity="one">%1$d photo of %2$s will be added</item>
     </plurals>
-    <plurals name="baby_age_subtitle_year">
-        <item quantity="other">"%1$d lat "</item>
-        <item quantity="one">"%1$d rok "</item>
+    <plurals name="album_already_share_user_count">
+        <item quantity="other">Udostępniono dla %d osób</item>
+        <item quantity="one">Udostępniono dla %d osoby</item>
     </plurals>
-    <plurals name="baby_age_subtitle_month">
-        <item quantity="other">"%1$d miesięcy "</item>
-        <item quantity="one">"%1$d miesiąc "</item>
+    <plurals name="picker_all_image_need_download">
+        <item quantity="other">Wybrane zdjęcia nie znajdują się na urządzeniu. Pobrać z użyciem danych komórkowych?</item>
+        <item quantity="one">Wybrane zdjęcie nie znajduje się na urządzeniu. Pobrać z użyciem danych komórkowych?</item>
     </plurals>
-    <plurals name="baby_age_subtitle_day">
-        <item quantity="other">%1$d dni</item>
-        <item quantity="one">%1$d dzień</item>
+    <plurals name="picker_all_origin_need_download">
+        <item quantity="other">Wybrane zdjęcia nie znajdują się na urządzeniu (%d MB). Pobrać z użyciem danych komórkowych?</item>
+        <item quantity="one">Wybrane zdjęcie nie znajduje się na urządzeniu (%d MB). Pobrać z użyciem danych komórkowych?</item>
     </plurals>
-    <plurals name="baby_album_share_user_count_tip">
-        <item quantity="other">%1$d</item>
-        <item quantity="one">%1$d</item>
+    <plurals name="picker_all_image_will_download">
+        <item quantity="other">Wybrane zdjęcia nie znajdują się na urządzeniu. Pobieranie.</item>
+        <item quantity="one">Wybrane zdjęcie nie znajduje się na urządzeniu. Pobieranie.</item>
+    </plurals>
+    <plurals name="picker_skip_unavailable_images">
+        <item quantity="other">Pominięto %d zdjęć niedostępnych na urządzeniu.</item>
+        <item quantity="one">Pominięto zdjęcie niedostępne na urządzeniu.</item>
+    </plurals>
+    <plurals name="picker_retry_image_confirm_message">
+        <item quantity="other">Pobieranie %1$d zdjęć nieudane. Ponowić?</item>
+        <item quantity="one">Pobieranie jednego zdjęcia nieudane. Ponowić?</item>
+    </plurals>
+    <plurals name="picker_retry_origin_confirm_message">
+        <item quantity="other">Pobieranie %1$d zdjęć (%2$d MB) nieudane. Ponowić?</item>
+        <item quantity="one">Pobieranie jednego zdjęcia (%2$d MB) nieudane. Ponowić?</item>
+    </plurals>
+    <plurals name="picker_cancel_confirm_message">
+        <item quantity="other">Anulować pobieranie pozostałych %d zdjęć?</item>
+        <item quantity="one">Anulować pobieranie ostatniego zdjęcia?</item>
+    </plurals>
+    <plurals name="delete_photo_msg_format">
+        <item quantity="other">Usunąć %1$d zdjęć %2$s?</item>
+        <item quantity="one">Usunąć to zdjęcie %2$s?</item>
+    </plurals>
+    <plurals name="delete_video_msg_format">
+        <item quantity="other">Usunąć %1$d filmów %2$s?</item>
+        <item quantity="one">Usunąć ten film %2$s?</item>
+    </plurals>
+    <plurals name="delete_media_msg_format">
+        <item quantity="other">Usunąć %1$d elementów %2$s?</item>
+        <item quantity="one">Usunąć %1$d element %2$s?</item>
+    </plurals>
+    <plurals name="album_item_msg_format">
+        <item quantity="other">(%d el.)</item>
+        <item quantity="one">(%d el)</item>
+    </plurals>
+    <plurals name="album_count">
+        <item quantity="other">%d zdjęć</item>
+        <item quantity="one">%d zdjęcie</item>
+    </plurals>
+    <plurals name="album_count_and_size">
+        <item quantity="other">%1$d elementów | %2$s</item>
+        <item quantity="one">%1$d elementów | %2$s</item>
+    </plurals>
+    <plurals name="backuped">
+        <item quantity="other">%1$d zostało skopiowanych</item>
+        <item quantity="one">%1$d został skopiowany</item>
+    </plurals>
+    <plurals name="backup_waiting">
+        <item quantity="other">%1$d elementów do synchronizacji</item>
+        <item quantity="one">%1$d element do synchronizacji</item>
+    </plurals>
+    <plurals name="network_unsatisfied">
+        <item quantity="other">Błąd sieci. %1$d elementów do synchronizacji</item>
+        <item quantity="one">Błąd sieci. %1$d element do synchronizacji</item>
+    </plurals>
+    <plurals name="sync_off">
+        <item quantity="other">Synchr. wył. %1$d elementów do synchronizacji</item>
+        <item quantity="one">Synchr. wył. %1$d elementów do synchronizacji</item>
+    </plurals>
+    <plurals name="cloud_space_full">
+        <item quantity="other">Brak miejsca w Chmurze. %1$d elementów do synchronizacji</item>
+        <item quantity="one">Brak miejsca w Chmurze. %1$d element do synchronizacji</item>
+    </plurals>
+    <plurals name="local_space_full">
+        <item quantity="other">Brak miejsca na urządzeniu. %1$d elementów do synchronizacji</item>
+        <item quantity="one">Brak miejsca na urządzeniu. %1$d element do synchronizacji</item>
     </plurals>
     <plurals name="number_of_images_to_upload">
         <item quantity="other">%1$d zdjęć do synchronizacji</item>
@@ -141,8 +117,8 @@
         <item quantity="one">1 film do synchronizacji</item>
     </plurals>
     <plurals name="number_of_images_and_videos_to_upload">
-        <item quantity="other">%1$d filmów i zdjęć do synchronizacji</item>
-        <item quantity="one">1 film i zdjęcie do synchronizacji</item>
+        <item quantity="other">%1$d w oczekiwaniu na synchronizację</item>
+        <item quantity="one">1 w oczekiwaniu na synchronizację</item>
     </plurals>
     <plurals name="number_of_uploading_images">
         <item quantity="other">Synchronizowanie %1$d zdjęć…</item>
@@ -153,7 +129,27 @@
         <item quantity="one">Synchronizowanie filmu…</item>
     </plurals>
     <plurals name="number_of_uploading_images_and_videos">
-        <item quantity="other">Synchronizowanie %1$d filmów i zdjęć…</item>
-        <item quantity="one">Synchronizowanie filmu i zdjęć…</item>
+        <item quantity="other">Synchronizacja %1$d elementów…</item>
+        <item quantity="one">Synchronizacja 1 elementu…</item>
+    </plurals>
+    <plurals name="download_error">
+        <item quantity="other">%1$d błędów pobierania</item>
+        <item quantity="one">%1$d błąd pobierania</item>
+    </plurals>
+    <plurals name="custom_select_title_items_selected">
+        <item quantity="other">%d wybranych</item>
+        <item quantity="one">%d wybrany</item>
+    </plurals>
+    <plurals name="fast_share_auto_render_failed">
+        <item quantity="other">Nie udało się wyświetlić %1$d zdjęć. Pomijanie...</item>
+        <item quantity="one">Nie udało się wyświetlić 1 zdjęcia. Pomijanie...</item>
+    </plurals>
+    <plurals name="picker_no_network_retry_origin_confirm_message">
+        <item quantity="other">Nie można pobrać %1$d zdjęć (%2$d MB). Połącz z siecią i spróbuj ponownie.</item>
+        <item quantity="one">Nie można pobrać jednego zdjęcia (%2$d MB). Połącz z siecią i spróbuj ponownie.</item>
+    </plurals>
+    <plurals name="add_to_album_cloud_photo_count_tip">
+        <item quantity="other">Dodano %d zdjęć w chmurze. Wyłącz \"Pokazuj tylko lokalne albumy\" aby wyświetlić tą zawartość.</item>
+        <item quantity="one">Dodano %d zdjęcie w chmurze. Wyłącz \"Pokazuj tylko lokalne albumy\" aby wyświetlić tą zawartość.</item>
     </plurals>
 </resources>

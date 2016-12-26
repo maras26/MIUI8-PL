@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="progress_summary_size">@miui:dimen/secondary_text_size</item>
+    <dimen name="progress_title_top_margin">3.0dip</dimen>
+    <dimen name="progress_summary_top_margin">1.0dip</dimen>
+    <dimen name="trans_show_qrcode_img_margin">36.0dip</dimen>
+    <dimen name="trans_show_qrcode_text_margin">12.0dip</dimen>
+    <dimen name="trans_scan_qrcode_text_size">12.0sp</dimen>
+    <dimen name="trans_select_number_text_size">60.0sp</dimen>
+    <dimen name="trans_select_unit_text_size">10.0sp</dimen>
+</resources>

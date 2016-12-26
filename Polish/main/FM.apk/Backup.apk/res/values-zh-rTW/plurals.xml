@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="data_item_count">
+        <item quantity="other">%d項</item>
+    </plurals>
+    <plurals name="trans_time_format_minute">
+        <item quantity="other">%d分鐘</item>
+    </plurals>
+    <plurals name="trans_time_format_hours">
+        <item quantity="other">%d小時</item>
+    </plurals>
+    <item type="plurals" name="APKTOOL_DUMMY_0003">false</item>
+</resources>

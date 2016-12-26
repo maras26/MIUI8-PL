@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/scan_mask_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/img_laser_scanner" android:layout_width="@dimen/scan_qrcode_side_length" android:layout_height="wrap_content" android:layout_marginTop="@dimen/scan_qrcode_view_margin_top" android:src="@drawable/laser_scanner" android:scaleType="fitXY" android:contentDescription="@null" />
+</FrameLayout>

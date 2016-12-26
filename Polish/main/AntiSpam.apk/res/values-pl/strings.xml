@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="empty_activity_title">" "</string>
-    <string name="app_name">Firewall</string>
+    <string name="app_name">Blokowanie numerów</string>
     <string name="fw_blocked">Blokowanych:</string>
     <string name="fw_blocked_count">"Przechwyconych: "</string>
     <string name="fw_blocked_join">" i "</string>
-    <string name="tab_title">Firewall</string>
+    <string name="tab_title">Blokowanie numerów</string>
     <string name="tab_block_log">Blokowane</string>
     <string name="tab_blacklist">Blokowane</string>
     <string name="tab_sms">Wiadomości</string>
@@ -39,7 +39,7 @@
     <string name="dlg_clear_current_call">Usunąć wszystkie blokowane połączenia od tego numeru?</string>
     <string name="dlg_clear_all_ok">Usuń wszystkie</string>
     <string name="dlg_clear_current_ok">Usuń</string>
-    <string name="dlg_no_block">Usunąć numer z czarnej listy i przywrócić rejestr połączeń?</string>
+    <string name="dlg_no_block">Usunąć numer z czarnej listy i przywrócić historię połączeń?</string>
     <string name="dlg_no_block_ok">Usuń</string>
     <string name="dlg_add_blacklist">Dodać numer do czarnej listy?</string>
     <string name="dlg_add_blacklist_warn_conflict_title">Ostrożnie</string>
@@ -93,7 +93,7 @@
     <string name="menu_add">Dodaj</string>
     <string name="menu_edit">Edytuj</string>
     <string name="menu_remove">Usuń</string>
-    <string name="st_settings_name">Ustawienia Firewall</string>
+    <string name="st_settings_name">Ustawienia Blokowanie numerów</string>
     <string name="st_block_setting_group">Czarna lista</string>
     <string name="st_block_setting_title">Akcje blokowania</string>
     <string name="st_block_all">Odrzuć połączenia i wiadomości</string>
@@ -181,6 +181,7 @@
     <string name="Call_DEFAULT">Inteligentne blokowanie</string>
     <string name="PAST_BLOCK">Blokowane</string>
     <string name="STRANGER_BLOCK">Blokada nieznanych</string>
+    <string name="MALICIOUS_URL">Podejrzane URL</string>
     <string name="AD_AntiSpam">Blokuj</string>
     <string name="AD_SCANNING">Skanowanie…</string>
     <string name="AD_BLOCK_ALL">Blokuj wszystko</string>
@@ -224,7 +225,7 @@
     <string name="read_all_sms">Przeczytane</string>
     <string name="loding">Wczytywanie</string>
     <string name="action_source_sms_title">Blokowany SMS</string>
-    <string name="st_title_open_antispam">Włącz Firewall</string>
+    <string name="st_title_open_antispam">Włącz Blokowanie numerów</string>
     <string name="st_title_antispam_mode">Tryby blokowania</string>
     <string name="st_sub_title_whiteblack_list_group">Blokowanie z listy</string>
     <string name="st_title_keywords_blacklist">Słowa kluczowe</string>
@@ -279,7 +280,7 @@
     <string name="note_preference_delete">Tryb w użyciu. Nie może być usunięty</string>
     <string name="block_message_number">Niechciane wiadomości: %d</string>
     <string name="block_phone_number">Niechciane połączenia: %d</string>
-    <string name="info_antispam_close">Firewall wył.</string>
+    <string name="info_antispam_close">Blokowanie numerów wył.</string>
     <string name="mark_fraud">Block reported scams</string>
     <string name="mark_agent">Block reported agencies</string>
     <string name="mark_sell">Block reported telemarketers</string>
@@ -331,11 +332,13 @@
     <string name="quiet">Wyciszenie</string>
     <string name="quiet_group">Gdy ktoś dzwoni i przychodzą powiadomienia</string>
     <string name="name">Imię</string>
-    <string name="nickname">Nick</string>
+    <string name="nickname">Pseudonim</string>
     <string name="phone">Telefon</string>
     <string name="email">E-mail</string>
     <string name="organization">Firma</string>
     <string name="birthday">Urodziny</string>
+    <string name="website">Witryna</string>
     <string name="address">Adres</string>
     <string name="note">Notatka</string>
+    <string name="antispam_xpace_text">Przełącz do Pierwszego profilu aby ustawić blokowane numery</string>
 </resources>

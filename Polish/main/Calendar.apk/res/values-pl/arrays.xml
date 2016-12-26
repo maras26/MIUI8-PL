@@ -6,30 +6,6 @@
         <item>SMS</item>
         <item>Alarm</item>
     </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>Bez przypomnienia</item>
-        <item>0 min</item>
-        <item>5 min</item>
-        <item>10 min</item>
-        <item>15 min</item>
-        <item>30 min</item>
-        <item>1 godz.</item>
-        <item>1 dzień</item>
-        <item>2 dni</item>
-        <item>1 tydzień</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>Bez przypomnienia</item>
-        <item>0 min</item>
-        <item>5 min</item>
-        <item>10 min</item>
-        <item>15 min</item>
-        <item>30 min</item>
-        <item>1 godz.</item>
-        <item>1 dzień</item>
-        <item>2 dni</item>
-        <item>1 tydzień</item>
-    </string-array>
     <string-array name="preferences_default_reminder_values">
         <item>-1</item>
         <item>0</item>
@@ -65,8 +41,8 @@
         <item>Bogota</item>
         <item>Czas wschodni</item>
         <item>Wenezuela</item>
-        <item>Czas atlantycki</item>
-        <item>Atlantic Time (Canada)</item>
+        <item>Czas atlantycki (Barbados)</item>
+        <item>Czas atlantycki (Kanada)</item>
         <item>Manaus</item>
         <item>Santiago</item>
         <item>Nowa Fundlandia</item>
@@ -104,7 +80,7 @@
         <item>Dubaj</item>
         <item>Kabul</item>
         <item>Islamabad, Karaczi</item>
-        <item>"Ural'sk"</item>
+        <item>Orał</item>
         <item>Jekaterynburg</item>
         <item>Kalkuta</item>
         <item>Sri Lanka</item>
@@ -117,7 +93,7 @@
         <item>Hongkong</item>
         <item>Irkuck</item>
         <item>Kuala Lumpur</item>
-        <item>Per.</item>
+        <item>Perth</item>
         <item>Tajpej</item>
         <item>Seul</item>
         <item>Tokio, Osaka</item>
@@ -145,10 +121,10 @@
         <item>Publiczny</item>
     </string-array>
     <string-array name="ordinal_labels">
-        <item>pierwszy</item>
-        <item>drugi</item>
-        <item>trzeci</item>
-        <item>czwarty</item>
+        <item>1.</item>
+        <item>2.</item>
+        <item>3.</item>
+        <item>4.</item>
         <item>ostatni</item>
     </string-array>
     <string-array name="response_labels1">
@@ -162,25 +138,15 @@
         <item>To i przyszłe wydarzenia</item>
         <item>Wszystkie wydarzenia</item>
     </string-array>
-    <string-array name="delete_repeating_labels_no_selected">
-        <item>To i przyszłe wydarzenia</item>
-        <item>Wszystkie wydarzenia</item>
-    </string-array>
     <string-array name="change_response_labels">
         <item>Tylko to wydarzenie</item>
         <item>Wszystkie wydarzenia w serii</item>
     </string-array>
-    <string-array name="buttons_list">
-        <item>Dzień</item>
-        <item>Tydzień</item>
-        <item>Miesiąc</item>
-        <item>Plan dnia</item>
-    </string-array>
     <string-array name="quick_response_defaults">
-        <item>Spóźnię się o kilka minut.</item>
-        <item>Będę za 10 minut.</item>
-        <item>Zacznij beze mnie.</item>
-        <item>Nie uda mi się dotrzeć na czas. Będziemy musieli to przełożyć na później.</item>
+        <item>Spóźnię się tylko kilka minut.</item>
+        <item>Będę za około 10 minut.</item>
+        <item>Zacznijcie beze mnie.</item>
+        <item>Niestety, nie dam rady. Musimy to przełożyć.</item>
     </string-array>
     <string-array name="prefEntries_alerts_vibrateWhen">
         <item>Zawsze</item>
@@ -188,7 +154,7 @@
         <item>Nigdy</item>
     </string-array>
     <string-array name="widget_style_list">
-        <item>Czarny</item>
+        <item>Przezroczysty</item>
         <item>Biały</item>
     </string-array>
     <string-array name="miui_reminder_minutes_labels">
@@ -306,5 +272,39 @@
         <item>Nigdy</item>
         <item>Data</item>
         <item>Powtórzenia</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels">
+        <item>Bez przypomnienia</item>
+        <item>0 min</item>
+        <item>5 min</item>
+        <item>10 min</item>
+        <item>15 min</item>
+        <item>30 min</item>
+        <item>1 godz.</item>
+        <item>1 dzień</item>
+        <item>2 dni</item>
+        <item>1 tydzień</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>Bez przypomnienia</item>
+        <item>0 min</item>
+        <item>5 min</item>
+        <item>10 min</item>
+        <item>15 min</item>
+        <item>30 min</item>
+        <item>1 godz.</item>
+        <item>1 dzień</item>
+        <item>2 dni</item>
+        <item>1 tydzień</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_no_selected">
+        <item>To i przyszłe wydarzenia</item>
+        <item>Wszystkie wydarzenia</item>
+    </string-array>
+    <string-array name="buttons_list">
+        <item>Dzień</item>
+        <item>Tydzień</item>
+        <item>Miesiąc</item>
+        <item>Plan dnia</item>
     </string-array>
 </resources>

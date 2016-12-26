@@ -25,11 +25,19 @@
         <item quantity="one">Drzemka na %d min</item>
     </plurals>
     <plurals name="alarm_alert_snooze_set">
-        <item quantity="other">Drzemka na %d minut.</item>
-        <item quantity="one">Drzemka na %d minutę.</item>
+        <item quantity="other">Drzemka na %d min</item>
+        <item quantity="one">Drzemka na %d minutę</item>
     </plurals>
     <plurals name="auto_silence_summary">
-        <item quantity="other">Wyciszenie alarmu za %d minut</item>
-        <item quantity="one">Wyciszenie alarmu za %d minutę</item>
+        <item quantity="other">Wyciszenie alarmu po %d min</item>
+        <item quantity="one">Wyciszenie alarmu po %d minucie</item>
+    </plurals>
+    <plurals name="delete_alarm_confirm">
+        <item quantity="other">Usunąć wybrane alarmy?</item>
+        <item quantity="one">Usunąć ten alarm?</item>
+    </plurals>
+    <plurals name="delete_timezone_confirm">
+        <item quantity="other">Usunąć wybrane strefy czasowe?</item>
+        <item quantity="one">Usunąć tę strefę czasową?</item>
     </plurals>
 </resources>

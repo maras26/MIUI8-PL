@@ -1,10 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="label_airplane_mode">Avion</string>
-    <string name="label_silent_mode">Fără sunet</string>
-    <string name="label_reboot">Reporneşte</string>
-    <string name="label_shutdown">Deconectează</string>
-    <string name="label_alert_reboot">Tap to reboot</string>
-    <string name="label_alert_shutdown">Tap to power off</string>
-    <string name="label_blank">Back</string>
+    <string name="label_airplane_mode">Mod Avion</string>
+    <string name="label_silent_mode">Silenţios</string>
+    <string name="label_reboot">Repornire</string>
+    <string name="label_shutdown">Oprire</string>
+    <string name="label_alert_reboot">Apăsați mai sus pentru a reporni telefonul</string>
+    <string name="label_alert_shutdown">Apăsați mai sus pentru a închide telefonul</string>
 </resources>

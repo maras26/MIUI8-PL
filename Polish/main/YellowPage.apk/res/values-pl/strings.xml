@@ -23,8 +23,8 @@
     <string name="download_failed_blocked">Nie można połączyć się z siecią</string>
     <string name="yellow_page_website">Strona www</string>
     <string name="menu_copy_text">Kopiuj do schowka</string>
-    <string name="menu_call_ip_number">Połączenie IP (wybierz %s)</string>
-    <string name="toast_text_copied">Tekst skopiowany</string>
+    <string name="menu_call_ip_number">Połączenie IP</string>
+    <string name="toast_text_copied">Skopiowano tekst</string>
     <string name="confirm_to_send_to_desktop">Wysłać %s na pulpit?</string>
     <string name="all_services">Wszystkie</string>
     <string name="average_price">Average %d RMB</string>
@@ -42,13 +42,13 @@
     <string name="callrecordview_item_op_time_missed">Nie połączone</string>
     <string name="callrecordview_item_op_time_rejected">Odrzucone</string>
     <string name="voicemail">Voicemail</string>
-    <string name="menu_delete_one">Usuń z rejestru połączeń</string>
-    <string name="toast_finish_delete_call_log">Rejestr połączeń został usunięty</string>
-    <string name="confirm_delete_call_log_title">Usunąć rejestr połączeń?</string>
-    <string name="confirm_delete_all_call_log_title">Potwierdzić usuwanie wszystkich rejestrów połączeń?</string>
+    <string name="menu_delete_one">Usuń z historii połączeń</string>
+    <string name="toast_finish_delete_call_log">Historia połączeń została usunięta</string>
+    <string name="confirm_delete_call_log_title">Usunąć historię połączeń?</string>
+    <string name="confirm_delete_all_call_log_title">Potwierdzić usuwanie wszystkich historii połączeń?</string>
     <string name="contact_detail_calllog_call_record_tips">Nagrania</string>
     <string name="contact_detail_calllog_call_note_tips">Notatki</string>
-    <string name="menu_delete_call_log">Usuń rejestry połączeń</string>
+    <string name="menu_delete_call_log">Usuń historię połączeń</string>
     <string name="menu_add_black_list">Czarna lista</string>
     <string name="confirm_to_add_blacklist">Blokować ten numer?</string>
     <string name="confirm_to_remove_blacklist">Odblokować numer?</string>
@@ -167,7 +167,7 @@ Wpisz ponownie swoje hasło do konta Xiaomi dla potwierdzenia tożsamości"</str
     <string name="choose_upload">Choose file for upload</string>
     <string name="allow">Zezwól</string>
     <string name="view_orders">View orders</string>
-    <string name="express_inquiry_trace_device_login_before_use">Musisz się zalogować przed użyciem</string>
     <string name="mark_number_custom_dialog_maintitle">Popraw oznaczenie</string>
     <string name="menu_about_yellow_page">Informacje o stronie</string>
+    <string name="express_inquiry_trace_device_login_before_use">Musisz się zalogować przed użyciem</string>
 </resources>

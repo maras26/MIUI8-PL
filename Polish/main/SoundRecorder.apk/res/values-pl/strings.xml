@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="search_app">Nagrywania</string>
+    <string name="search_led_indicator">Powiadomienia na ekranie blokady</string>
+    <string name="search_tip_rename">Ręcznie zmień nazwę nagrań</string>
+    <string name="search_led_indicator_prompt">Pokaż skrót na pasku stanu i powiadomienie LED gdy ekran jest wyłączony</string>
+    <string name="search_scenes">Typ nagrania</string>
+    <string name="search_silent_mode">Wycisz dzwonek podczas nagrywania</string>
+    <string name="search_enable_earpiece_title">Odtwarzaj na głośniku</string>
+    <string name="search_quliaty_title">Jakość nagrania</string>
     <string name="app_name">Dyktafon</string>
     <string name="recording">Nagrywanie</string>
     <string name="recording_stopped">Nagrywanie zakończone</string>
@@ -24,15 +32,16 @@
     <string name="fm_record">Nagrania z FM (%d)</string>
     <string name="cloud_record">Nagrywanie w chmurze (%d)</string>
     <string name="no_file">Brak nagrań</string>
-    <string name="alert_message_delete_record_title">Usuń nagranie?</string>
-    <string name="alert_message_delete_record">Usunąć wybrane nagranie?</string>
+    <string name="alert_message_delete_record_title">Usuń nagranie</string>
+    <string name="alert_message_delete_record">Usunąć wybrane nagranie z urządzenia i Chmury Xiaomi?</string>
+    <string name="share">Udostępnij</string>
     <string name="rename">Zmień nazwę</string>
     <string name="delete">Usuń</string>
+    <string name="details">Szczegóły</string>
     <string name="deleting_message">Usuwanie...</string>
-    <string name="rename_dialog_title">Zmiana nazwy nagrania</string>
+    <string name="rename_dialog_title">Podaj nazwę nagrania</string>
     <string name="rename_duplicate">Nazwa pliku się powtarza</string>
     <string name="rename_no_more_tip">Nie pokazuj ponownie</string>
-    <string name="record_picker_title">Wybierz nagranie</string>
     <string name="dialog_title_storage_full">Brak miejsca na nagranie</string>
     <string name="dialog_content_storage_full">Niewystarczająca ilość miejsca w pamięci. Nagrywanie zostało zatrzymane. Otworzyć Menedżer Plików aby zwolnić miejsce?</string>
     <string name="status_bar_recording">Nagrywanie...</string>
@@ -43,7 +52,7 @@
     <string name="sound_recorder_settings">Ustawienia</string>
     <string name="preference_led_indicator">Powiadomienie o nagrywaniu</string>
     <string name="preference_tip_rename">Pokazuj pytanie o zmianę nazwy nagrania</string>
-    <string name="preference_led_indicator_prompt">Pokaż powiadomienie LED gdy ekran jest wyłączony</string>
+    <string name="preference_led_indicator_prompt">Pokaż skrót na pasku stanu i powiadomienie LED gdy ekran jest wyłączony</string>
     <string name="preference_scenes">Typ nagrania</string>
     <string name="preference_record_scenes_dialog_title">Wybierz kategorię typu nagrania</string>
     <string name="preference_silent_mode">Ciche nagrywanie</string>
@@ -69,7 +78,7 @@
     <string name="record_downloading_notification_count">Pobieranych: %d</string>
     <string name="record_downloading_notification_complete">Pobieranie ukończone</string>
     <string name="wifi_recommended_title">Użycie danych mobilnych</string>
-    <string name="wifi_recommended_body">Pobieranie pliku (%s) może spowodować naliczenie opłat za transfer danych</string>
+    <string name="wifi_recommended_body" formatted="false">Pobieranie pliku (%s) może spowodować naliczenie opłat za transfer danych. Aby połączyć się z Wi-Fi wybierz %s.</string>
     <string name="button_queue_for_wifi">Kolejka</string>
     <string name="button_start_now">Pobierz</string>
     <string name="notification_title_all_paused">Pobieranie wstrzymane</string>
@@ -80,6 +89,7 @@ Pobieranie z użyciem danych mobilnych może powodować naliczenie kosztów."</s
     <string name="data_connection_button_text">OK</string>
     <string name="error_sdcard_unmounted">Brak karty SD lub została wyjęta</string>
     <string name="record_back_pressed_hint">Naciśnij ponownie by zatrzymać nagrywanie</string>
+    <string name="record_mark_point">Oznacz %s</string>
     <string name="record_quliaty_preference_title">Jakość nagrywania</string>
     <string name="cloud_record_tip">Synchronizuj nagrania z Chmurą.</string>
     <string name="cloud_record_open">Synchronizuj nagrania</string>
@@ -87,7 +97,33 @@ Pobieranie z użyciem danych mobilnych może powodować naliczenie kosztów."</s
     <string name="cloud_status_full_dialog_msg">Dysk w Chmurze jest pełny. Nie można zsynchronizować więcej nagrań.</string>
     <string name="cloud_status_full_dialog_cancel">Nie teraz</string>
     <string name="cloud_status_full_dialog_ok">Ulepsz</string>
-    <string name="sync_only_in_wifi">Synchronizuj tylko z Wi-Fi</string>
-    <string name="sync_only_in_wifi_summary">Synchronizuj w tle tylko w sieci Wi-Fi</string>
-    <string name="sync_records">Synchronizuj nagrania</string>
+    <string name="text_btn_recording">Nagrywanie</string>
+    <string name="text_btn_pause">Wstrzymaj</string>
+    <string name="text_btn_play">Odtwórz</string>
+    <string name="text_btn_mark">Oznacz</string>
+    <string name="text_btn_list">Nagrania</string>
+    <string name="text_btn_complete">Zakończ</string>
+    <string name="text_btn_recognize">Rozpoznaj</string>
+    <string name="text_btn_wave">Fala</string>
+    <string name="text_finish">Potwierdź</string>
+    <string name="new_record_name">Nowe nagranie</string>
+    <string name="export_to_note">Skopiuj notatkę</string>
+    <string name="mark_point_list_title" />
+    <string name="speech_recognition_running_tip">running</string>
+    <string name="speech_recognition_complete">complete</string>
+    <string name="empty_recognition_tip">Pusto</string>
+    <string name="invalid_argument">Nieprawidłowy argument</string>
+    <string name="playback_delete_records">Usuń nagranie</string>
+    <string name="playback_share_records">Udostępnij nagranie</string>
+    <string name="recording_quality_high">Wysoka jakość</string>
+    <string name="recording_quality_standard">Jakość standardowa</string>
+    <string name="recording_quality_low">Niska jakość</string>
+    <string name="share_dialog_title">Udostępnij z</string>
+    <string name="recognition_error_stopped">Recognition Stop</string>
+    <string name="recognition_error_cancel">Canceled</string>
+    <string name="recognition_error_format">Illegal audio format</string>
+    <string name="recognition_error_internal">Internal error</string>
+    <string name="recognition_error_engine">Recognition Engine out of order</string>
+    <string name="recognition_error_engine_singleton">Recognition Engine is busy</string>
+    <string name="runtime_permission_ungranted">Brak wystarczających uprawnień dla Nagrywania</string>
 </resources>

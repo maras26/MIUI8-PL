@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <Button android:id="@id/btn_receiver" android:background="@drawable/icon_new_phone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/text_color_gray" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="@string/trans_receiver" />
+        <Button android:id="@id/btn_sender" android:background="@drawable/icon_old_phone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="115.0dip" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/text_color_gray" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="@string/trans_sender" />
+    </LinearLayout>
+</LinearLayout>

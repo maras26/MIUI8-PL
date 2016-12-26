@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="hot_search">Pokaż Popularne</string>
     <string name="search_history">Historia</string>
     <string name="loading">Wczytywanie</string>
     <string name="show_more">Więcej</string>
     <string name="clear_history">Wyczyść historię</string>
     <string name="search_in_web">Wyszukaj w sieci</string>
+    <string name="search_apps">Szukaj aplikacje</string>
+    <string name="search_videos">Wyszukaj wideo</string>
     <string name="search_in_app_store">Wyszukaj w Google Play</string>
+    <string name="send_secret_code">Send code</string>
     <string name="xiaomi_search_label">Wyniki</string>
+    <string name="search_suggestion">Podpowiedzi</string>
     <string name="distance_unit_meter">m</string>
     <string name="distance_unit_kilometer">km</string>
     <string name="cta_declaration_title">Warunki Użytkowania</string>
@@ -14,10 +19,15 @@
     <string name="cta_declaration_ignore">Nie pokazuj ponownie</string>
     <string name="cta_declaration_positive_text">OK</string>
     <string name="cta_declaration_negative_text">Anuluj</string>
-    <string name="default_hint" />
+    <string name="default_hint">Szukaj aplikacji, kontaktów, wiadomości</string>
     <string name="network_unavailable">Brak połączenia z siecią</string>
     <string name="connect_and_retry">Połącz z siecią i spróbuj ponownie</string>
     <string name="web_search_results">Wyniki wyszukiwania</string>
+    <string name="search_group_fold">Ukryj</string>
+    <string name="search_group_unfold">Więcej</string>
+    <string name="common_setting">Ustawienia</string>
+    <string name="recent_apps">Ostatnie aplikacje</string>
+    <string name="suggest_open_app_failed">Nie można otworzyć tej aplikacji</string>
     <string name="installed_apps_component">com.android.providers.applications/.ApplicationLauncher</string>
     <string name="browser_search_component">com.android.browser/.BookmarkSearch</string>
     <string name="apps_search_activity" />
@@ -26,10 +36,15 @@
     <string name="default_search_domain">.google.com</string>
     <string name="google_suggest_base">http://www.google.com/complete/search?hl=%1$s&amp;client=android&amp;q=</string>
     <string name="xiaomi_suggest_base" />
-    <string name="xiaomi_hot_query" />
-    <string name="baidu_suggest_base">http://www.google.com/complete/search?hl=%s&amp;client=android&amp;q=</string>
-    <string name="baidu_search_url">http://www.google.com/search?q=%s</string>
+    <string name="xiaomi_homepage_suggest" />
+    <string name="xiaomi_homepage_hint" />
+    <string name="baidu_suggest_base">http://www.google.com/m?hl=%1$s</string>
+    <string name="baidu_search_url_from_systemui">https://www.google.pl/search?q=%s&amp;tn=ins</string>
+    <string name="baidu_search_url_from_launcher">https://www.google.pl/search?q=%s&amp;tn=ins</string>
+    <string name="baidu_search_url_from_input">https://www.google.pl/search?q=%s&amp;tn=ins</string>
+    <string name="baidu_search_url_from_default">https://www.google.pl/search?q=%s&amp;tn=ins</string>
     <string name="xiaomi_hint" />
+    <string name="xiaomi_source_url" />
     <string name="app_name">Szukaj</string>
     <string name="search_widget">Szukaj</string>
     <string name="remove_from_history">Usuń z historii wyszukiwania</string>
@@ -62,4 +77,7 @@
     <string name="voice_search_hint_title">Powiedz np.:</string>
     <string name="voice_search_hint_quotation_start">\"</string>
     <string name="voice_search_hint_quotation_end">\"</string>
+    <string name="search_keyword_quicksearchbox">Wyszukaj</string>
+    <string name="search_path_quicksearchbox">Ustawienia/Zainstalowane/Szukaj</string>
+    <string name="hot_words" />
 </resources>

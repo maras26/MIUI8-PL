@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="hot_city">
-        <item>Wroclaw</item>
+        <item>Wrocław</item>
         <item>Poznan</item>
         <item>Krakow</item>
-        <item>Warszawa</item>
-        <item>Gdansk</item>
+        <item>Warsaw</item>
+        <item>Gdańsk</item>
         <item>Szczecin</item>
-        <item>Lodz</item>
-        <item>Moscow</item>
-        <item>Hyderabad</item>
+        <item>Łódź</item>
+        <item>Zakopane</item>
+        <item>Prague</item>
         <item>Chennai</item>
         <item>Istanbul</item>
         <item>Rio de Janeiro</item>
-        <item>Singapore</item>
+        <item>Singapur</item>
         <item>Berlin</item>
         <item>Rome</item>
         <item>New York</item>
@@ -26,15 +26,15 @@
         <item>Kuala Lumpur</item>
     </string-array>
     <string-array name="weather_type">
-        <item>Bezchmurnie</item>
+        <item>Pogodnie</item>
         <item>Pochmurnie</item>
-        <item>Pochmurnie</item>
+        <item>Zachmurzenie</item>
         <item>Mglisto</item>
         <item>Ulewne deszcze</item>
         <item>Ulewa</item>
         <item>Ulewa</item>
         <item>Burze</item>
-        <item>Deszczowo</item>
+        <item>Deszcz</item>
         <item>Duże opady</item>
         <item>Deszczowo</item>
         <item>Przelotne opady</item>

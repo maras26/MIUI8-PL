@@ -41,8 +41,8 @@
         <item quantity="one">Usunąć %d utwór?</item>
     </plurals>
     <plurals name="dialog_remove_descript">
-        <item quantity="other">Remove %d songs?</item>
-        <item quantity="one">Remove %d song?</item>
+        <item quantity="other">Usunąć %d utworów?</item>
+        <item quantity="one">Usunąć %d utwór?</item>
     </plurals>
     <plurals name="Ntracks_add_to_playlist">
         <item quantity="other">%d utworów dodanych do playlisty</item>

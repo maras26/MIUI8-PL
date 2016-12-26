@@ -9,7 +9,7 @@
         <item>Nazwa</item>
     </string-array>
     <string-array name="installed_app_sort_type">
-        <item>Ostatnio użyte</item>
+        <item>Często używane</item>
         <item>Rozmiar</item>
     </string-array>
     <string-array name="auto_clean_time">
@@ -31,18 +31,14 @@
     <string-array name="cache_clean_menu">
         <item>Wyczyść</item>
         <item>Pokaż plik</item>
-        <item>Dodaj plik do wyjątków</item>
-        <item>Dodaj aplikację do wyjątków</item>
     </string-array>
     <string-array name="trash_clean_menu">
         <item>Wyczyść</item>
         <item>Pokaż plik</item>
-        <item>Dodaj plik do wyjątków</item>
     </string-array>
     <string-array name="video_clean_menu">
         <item>Wyczyść</item>
         <item>Odtwórz</item>
-        <item>Dodaj plik do wyjątków</item>
     </string-array>
     <string-array name="empty_floder_clean_menu">
         <item>Wyczyść</item>
@@ -53,6 +49,12 @@
         <item>Pokaż plik</item>
         <item>Dodaj do wyjątków</item>
     </string-array>
+    <string-array name="long_add_menu">
+        <item>Dodaj do wyjątków</item>
+    </string-array>
+    <string-array name="long_add_app_menu">
+        <item>Dodaj aplikację do wyjątków</item>
+    </string-array>
     <string-array name="app_clean_menu">
         <item>Odinstaluj</item>
     </string-array>
@@ -60,5 +62,8 @@
         <item>Co 7 dni</item>
         <item>Co 15 dni</item>
         <item>Co 30 dni</item>
+    </string-array>
+    <string-array name="low_memory_clean_menu">
+        <item>Wyczyść</item>
     </string-array>
 </resources>

@@ -58,7 +58,8 @@
     <string name="pause_download">Wstrzymaj</string>
     <string name="resume_download">Wznów</string>
     <string name="restart_download">Restart</string>
-    <string name="open_download">Otwórz</string>
+    <string name="continue_download">Kontynuuj</string>
+    <string name="open_download">Pobierz</string>
     <string name="paused_by_app">Zatrzymane</string>
     <string name="paused_queued_for_wifi">Oczekiwanie na Wi-Fi</string>
     <string name="paused_waiting_for_network">Oczekiwanie na połączenie sieci</string>
@@ -157,6 +158,13 @@
     <string name="file_picker">Wybierz lokalizację</string>
     <string name="new_add_bt">Dodaj torrent</string>
     <string name="pref_sniff_shortcut">Utwórz skrót</string>
+    <string name="third_web_title">Pobieranie</string>
+    <string name="third_web_filename_hint">Nazwa</string>
+    <string name="third_web_filesize">Rozmiar</string>
+    <string name="third_web_savepath">Ścieżka</string>
+    <string name="third_web_default">Pamiętaj lokalizację</string>
+    <string name="third_web_cancel">Anuluj</string>
+    <string name="third_web_confirm">Pobierz</string>
     <string name="creat_task_success">Dodano do kolejki pobierania</string>
     <string name="start_download">Pobierz</string>
     <string name="starting_analysis">Sprawdzanie…</string>
@@ -182,7 +190,7 @@
     <string name="downloaded">Pobieranie ukończone</string>
     <string name="paused">Wstrzymane</string>
     <string name="installing">Instalowanie…</string>
-    <string name="open">Otwórz</string>
+    <string name="open">Pobierz</string>
     <string name="bt_download">Pobierz</string>
     <string name="select_sub_file_download">Wybierz plik do pobrania</string>
     <string name="extract_file">Rozpakowywanie…</string>
@@ -191,9 +199,9 @@
     <string name="subbt_downloading">Pobieranie…</string>
     <string name="subbt_pause">Wstrzymane</string>
     <string name="subbt_fail">Nieudane</string>
-    <string name="hint">Uwaga</string>
-    <string name="bt_xunlei_open_info">Use Xunlei Engine to open this type of link (required)?</string>
-    <string name="engine_open">Otwórz</string>
+    <string name="hint">Pobieranie pliku</string>
+    <string name="bt_xunlei_open_info">Pobrać ten plik?</string>
+    <string name="engine_open">Pobierz</string>
     <string name="torrent_file_error">"Couldn't parse this torrent file"</string>
     <string name="torrent_no_subfile">No subfiles in this torrent</string>
     <string name="no_file_hint">Ten plik oczekuje na pobranie</string>
@@ -206,6 +214,8 @@
     <string name="deselect_subfile_all">Odznacz wszystko</string>
     <string name="delete">Usuń</string>
     <string name="enter_search">Wyszukaj</string>
+    <string name="web_dialog_confirm">Pobierz</string>
+    <string name="web_dialog_cancel">Anuluj</string>
     <string name="net_error">Nie można połączyć się z siecią</string>
     <string name="loading">Chwileczkę…</string>
     <string name="install_failed">Nie można zainstalować %1$s</string>
@@ -218,14 +228,17 @@
     <string name="download_remain_time">Pozostało:</string>
     <string name="download_speed">Prędkość pobierania:</string>
     <string name="download_from">Źródło:</string>
+    <string name="copy">Kopiuj</string>
     <string name="download_spend_time">Czas</string>
     <string name="download_detail">Szczegóły</string>
+    <string name="subfile_list">Pobierz</string>
+    <string name="copy_info">Copied to clipboard. You can share it with friends!</string>
     <string name="file_size">Rozmiar:</string>
     <string name="complete_time">Ukończone:</string>
     <string name="other">Inne</string>
     <string name="insufficient_space">Brak miejsca w pamięci</string>
-    <string name="bt_restart_dialog_title">Restart all downloads</string>
-    <string name="bt_restart_dialog_message">Restart all downloads in the BT folder?</string>
+    <string name="bt_restart_dialog_title">Wznów pobierania</string>
+    <string name="bt_restart_dialog_message">Wznowić wszystkie pobierania z katalogu BT?</string>
     <string name="bt_path_not_exit">Ścieżka nie istnieje</string>
     <string name="download_no_application">Format pliku nie jest obsługiwany</string>
     <string name="durationDays">%1$d dni</string>
@@ -240,6 +253,9 @@
     <string name="durationMinuteSecond">%1$d min %2$d s.</string>
     <string name="durationSeconds">%1$d s.</string>
     <string name="durationSecond">%1$d s.</string>
+    <string name="extend">Więcej</string>
+    <string name="dialog_btn_ok_disabled_net">Ustawienia sieci</string>
+    <string name="clear_data">Wyczyść</string>
     <string name="download_title">Pobieranie</string>
     <string name="download_speed_null" />
 </resources>

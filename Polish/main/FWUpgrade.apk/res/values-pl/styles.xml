@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomRadioBtn">
+        <item name="android:textSize">@dimen/dialog_message_text_size</item>
+        <item name="android:textColor">@color/theme_public_content_color</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingRight">10.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:minHeight">50.0dip</item>
+        <item name="android:drawableRight">@drawable/radiobutton_selector</item>
+    </style>
+    <style name="SettingItemStyle">
+        <item name="android:paddingLeft">@dimen/default_left_margin</item>
+        <item name="android:paddingRight">@dimen/default_right_margin</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/setting_items_height</item>
+    </style>
+    <style name="NotificationText" parent="@android:style/TextAppearance.StatusBar.EventContent" />
+    <style name="NotificationTitle" parent="@android:style/TextAppearance.StatusBar.EventContent.Title" />
+    <style name="AppTheme_Default" parent="@android:style/Theme.NoTitleBar" />
+    <style name="AppTheme_Default.Black" parent="@style/AppTheme_Default">
+        <item name="theme_dialog_title_color">#ff33b5e5</item>
+        <item name="theme_dialog_message_color">#ffffffff</item>
+        <item name="theme_dialog_button_color">#ffffffff</item>
+        <item name="theme_public_title_color">#ffffffff</item>
+        <item name="theme_public_content_color">#ffffffff</item>
+        <item name="theme_public_content_hint_color">#ff4e4e4e</item>
+        <item name="theme_button_normal_color">#ffffffff</item>
+        <item name="theme_button_pressed_color">#ffffffff</item>
+        <item name="theme_public_button_color">#ffffffff</item>
+        <item name="theme_progress_color">#ff33b5e5</item>
+        <item name="theme_version_color">#ffffffff</item>
+        <item name="theme_tip_content_color">#ffdcdcdc</item>
+    </style>
+    <style name="AppTheme_Default.White" parent="@style/AppTheme_Default">
+        <item name="theme_dialog_title_color">#ff33b5e5</item>
+        <item name="theme_dialog_message_color">#ffffffff</item>
+        <item name="theme_dialog_button_color">#ffffffff</item>
+        <item name="theme_public_title_color">#ffffffff</item>
+        <item name="theme_public_content_color">#ffffffff</item>
+        <item name="theme_public_content_hint_color">#ff4e4e4e</item>
+        <item name="theme_button_normal_color">#ff000000</item>
+        <item name="theme_button_pressed_color">#ffffffff</item>
+        <item name="theme_public_button_color">#ffffffff</item>
+        <item name="theme_progress_color">#ff33b5e5</item>
+        <item name="theme_version_color">#ffffffff</item>
+        <item name="theme_tip_content_color">#ff434343</item>
+    </style>
+    <style name="style_list_custom">
+        <item name="android:cacheColorHint">#00000000</item>
+        <item name="android:divider">@drawable/horizontal_line</item>
+    </style>
+    <style name="Dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/dialog_frame</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    <style name="DialogText">
+        <item name="android:textSize">@dimen/dialog_message_text_size</item>
+        <item name="android:textColor">#ff333333</item>
+    </style>
+    <style name="DialogText.Title" parent="@style/DialogText">
+        <item name="android:textSize">@dimen/dialog_title_text_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff22ac38</item>
+    </style>
+    <style name="DialogButton">
+        <item name="android:textSize">@dimen/dialog_message_text_size</item>
+        <item name="android:textColor">@drawable/bottom_button_font_selector</item>
+    </style>
+</resources>

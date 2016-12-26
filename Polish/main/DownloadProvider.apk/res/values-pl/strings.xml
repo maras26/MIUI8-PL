@@ -36,6 +36,8 @@
     <string name="download_apk_desktop_pause">Wstrzymane</string>
     <string name="download_apk_desktop_running">Pobieranie</string>
     <string name="download_apk_desktop_installing">Instalowanie</string>
+    <string name="notify_disabled_net_by_app">Połączenie z siecią jest ograniczone przez Panel Sterowania</string>
+    <string name="notify_only_wifi_download">Oczekiwanie na Wi-Fi</string>
     <string name="app_label">Pobieranie</string>
     <string name="permlab_downloadManager">Dostęp do menadżera pobierania.</string>
     <string name="permdesc_downloadManager">Zezwala aplikacji na dostęp do menadżera pobierania i korzystanie z niego w celu pobierania plików. Złośliwe aplikacje mogą wykorzystać tę możliwość w celu zakłócenia pobierania i uzyskania dostępu do informacji prywatnych.</string>

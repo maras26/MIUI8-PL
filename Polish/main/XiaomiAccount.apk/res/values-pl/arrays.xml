@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="education">
+        <item>Middle school</item>
+        <item>Prep school</item>
+        <item>High school</item>
+        <item>Vocational school</item>
+        <item>College</item>
+        <item>"Master's degree"</item>
+        <item>"Doctor's degree"</item>
+    </string-array>
+    <string-array name="income">
+        <item>&lt; 2000</item>
+        <item>2001~4000</item>
+        <item>4001~6000</item>
+        <item>6001~8000</item>
+        <item>8001~12000</item>
+        <item>> 12000</item>
+    </string-array>
+    <string-array name="question_no1">
+        <item>Rodzina</item>
+        <item>"Maternal grandmother's name"</item>
+        <item>"Maternal grandfather's name"</item>
+        <item>"Paternal grandfather's name"</item>
+        <item>"Paternal grandmother's name"</item>
+        <item>Urodziny taty</item>
+        <item>Urodziny mamy</item>
+        <item>Jaka jest różnica wiekowa twoich rodziców (lata i miesiące)?</item>
+    </string-array>
+    <string-array name="question_no2">
+        <item>Alma mater</item>
+        <item>What was the name of your class president in middle school?</item>
+        <item>What was the name of your class president in elementary school?</item>
+        <item>Your student ID number at college</item>
+        <item>"What's the name of your roommate at college?"</item>
+        <item>"What's the name of your supervisor at college?"</item>
+    </string-array>
+    <string-array name="question_no3">
+        <item>Dane osobiste</item>
+        <item>Jak mówią do ciebie twoi rodzice?</item>
+        <item>Ostatnie 6 cyfr numeru paszportu</item>
+        <item>W którym szpitalu się urodziłeś?</item>
+        <item>Jak nazywa się twój najlepszy kolega?</item>
+    </string-array>
+    <string-array name="question_no4">
+        <item>Pierwszy raz</item>
+        <item>"What's the name of your first pet?"</item>
+        <item>"What's the name of your first girlfriend/boyfriend?"</item>
+        <item>Name of the company where you got your first job</item>
+    </string-array>
+    <string-array name="question_no5">
+        <item>Małżeństwo</item>
+        <item>When did you get married?</item>
+        <item>"Your spouse's name"</item>
+        <item>"Your spouse's birthday"</item>
+    </string-array>
+    <string-array name="account_user_gender_name">
+        <item>Mężczyzna</item>
+        <item>Kobieta</item>
+    </string-array>
+</resources>

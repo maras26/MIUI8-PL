@@ -20,9 +20,9 @@
     <string name="select_item">Wybierz</string>
     <string name="action_mode_title_empty">Zaznacz</string>
     <string name="action_mode_select_all">Wszystko</string>
-    <string name="action_mode_deselect_all">Odznacz wszystko</string>
+    <string name="action_mode_deselect_all">Odznacz</string>
     <string name="select_all">Wszystko</string>
-    <string name="deselect_all">Odznacz wszystko</string>
+    <string name="deselect_all">Odznacz</string>
     <string name="abc_action_bar_up_description">Do góry</string>
     <string name="abc_action_bar_home_description">Na pulpit</string>
     <string name="time_picker_label_hour">godz.</string>
@@ -50,8 +50,8 @@
     <string name="date_time_picker_dialog_title">Ustaw datę i czas</string>
     <string name="perm_payment_lab">Xiaomi payment service</string>
     <string name="perm_payment_dspt">Allow app to pay through Xiaomi payment service</string>
-    <string name="check_phone_error_title">Usługa synchronizacji nieaktywna</string>
-    <string name="check_phone_io_error">Błąd sieci</string>
+    <string name="check_phone_error_title">Synchr. wył</string>
+    <string name="check_phone_io_error">Nie można połączyć się z siecią</string>
     <string name="send_sms_for_sync_title">Synchronizacja nie została aktywowana</string>
     <string name="send_sms_for_sync_notice">Operator może pobrać opłatę za wysłanie wiadomości aktywacyjnej SMS.</string>
     <string name="activate">Aktywuj</string>
@@ -59,9 +59,9 @@
     <string name="sim_changed_reactivate_notice">Aktualna karta SIM nie jest aktywna. Wymagany jest SMS by aktywować Usługi synchronizacji. Aktywować teraz?</string>
     <string name="sim_changed_reactivate_int_notice">Aktualna karta SIM nie jest aktywna. Wymagany jest SMS by aktywować Usługi synchronizacji. Aktywować teraz?</string>
     <string name="error_title">Błąd synchronizacji</string>
-    <string name="error_unauthorized">Synchronizacja wył.: błąd autoryzacji konta</string>
-    <string name="error_forbidden">Synchronizacja wył.: problem z kontem</string>
-    <string name="error_not_acceptable">Synchronizacja wył.: problem z serwerem</string>
+    <string name="error_unauthorized">Synchr. wył.: błąd autoryzacji konta</string>
+    <string name="error_forbidden">Synchr. wył.: problem z kontem</string>
+    <string name="error_not_acceptable">Synchr. wył.: problem z serwerem</string>
     <string name="more">Więcej</string>
     <string name="empty" />
     <string name="solar_term_slight_cold">Slight Cold</string>
@@ -344,14 +344,10 @@
     <string name="fmt_weekday_date_time_timezone">W, D T z</string>
     <string name="fmt_chinese_date">N e</string>
     <string name="permlab_sendSmsNoConfirmation">Zezwól na wysyłanie SMS w tle</string>
-    <string name="permdesc_sendSmsNoConfirmation">App can send SMS messages without asking you first. This may result in unexpected charges from your carrier.</string>
+    <string name="permdesc_sendSmsNoConfirmation">Aplikacja może wysłać SMS bez pytania o uprawnienia. Twój operator może pobrać opłatę za wysłanie wiadomości.</string>
+    <string name="web_sso_login_message">Wpisywanie się…</string>
+    <string name="web_sso_login_fail">Wpisz się ponownie</string>
     <string name="no_network">Nie można połączyć się z siecią</string>
     <string name="webview_reload">Ponów</string>
-    <string name="hybrid_provider">The web page provided by %1$s .</string>
-    <string name="app_name_which_call">Aplikacja: %s</string>
-    <string name="app_version_which_call">Wersja aplikacji: %s</string>
-    <string name="license_host_unreachable">Nie można połączyć się z siecią. Przejdź do %s.</string>
-    <string name="loading">Wczytywanie…</string>
-    <string name="mibi_license">Umowa MiKredyty</string>
-    <string name="policy_name">Polityka Prywatności: %s</string>
+    <string name="hybrid_provider" />
 </resources>

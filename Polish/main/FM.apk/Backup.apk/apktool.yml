@@ -1,0 +1,47 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: Backup.apk
+compressionType: false
+doNotCompress:
+- dex
+- arsc
+- xml
+- bks
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: com.miui.backup
+sdkInfo:
+  minSdkVersion: '19'
+  targetSdkVersion: '21'
+sharedLibrary: false
+unknownFiles:
+  .classpath: '8'
+  .project: '8'
+  javax/servlet/LocalStrings.properties: '8'
+  javax/servlet/LocalStrings_fr.properties: '8'
+  javax/servlet/LocalStrings_ja.properties: '8'
+  javax/servlet/http/LocalStrings.properties: '8'
+  javax/servlet/http/LocalStrings_es.properties: '8'
+  javax/servlet/http/LocalStrings_fr.properties: '8'
+  javax/servlet/http/LocalStrings_ja.properties: '8'
+  jcifs/dcerpc/DcerpcHandle.java.0: '8'
+  jcifs/dcerpc/rpc.idl: '8'
+  jcifs/dcerpc/msrpc/lsarpc.idl: '8'
+  jcifs/dcerpc/msrpc/netdfs.idl: '8'
+  jcifs/dcerpc/msrpc/samr.idl: '8'
+  jcifs/dcerpc/msrpc/srvsvc.idl: '8'
+  jcifs/http/ne.css: '8'
+  jcifs/smb/BufferCache.jav: '8'
+  jcifs/smb/SmbComCheckDirectory.jav: '8'
+  jcifs/smb/SmbComEcho.jav: '8'
+  jcifs/smb/SmbComEchoResponse.jav: '8'
+  jcifs/util/mime.map: '8'
+usesFramework:
+  ids:
+  - 1
+  - 16
+  tag: null
+version: 2.1.0-285da3-SNAPSHOT
+versionInfo:
+  versionCode: '433'
+  versionName: 4.3.3

@@ -9,7 +9,7 @@
     <string name="notification_missedCall_call_back">Oddzwoń</string>
     <string name="notification_missedCall_message">Wiadomość</string>
     <string name="accessibility_call_muted">Połączenie wyciszone.</string>
-    <string name="accessibility_speakerphone_enabled">Głośnik.</string>
+    <string name="accessibility_speakerphone_enabled">Głośnik włączony.</string>
     <string name="respond_via_sms_canned_response_1">Nie mogę rozmawiać. Co słychać?</string>
     <string name="respond_via_sms_canned_response_2">Za chwilę do Ciebie oddzwonię.</string>
     <string name="respond_via_sms_canned_response_3">Zadzwonię do Ciebie później.</string>
@@ -51,6 +51,6 @@
     <string name="enable_account_preference_title">Konta telefoniczne</string>
     <string name="outgoing_call_not_allowed_no_permission">Ta aplikacja nie może wykonywać połączeń bez uprawnienia Telefon.</string>
     <string name="outgoing_call_not_allowed_user_restriction">Właściciel urządzenia zezwala tylko na połączenia alarmowe.</string>
-    <string name="respond_via_sms_custom_message">Napisz własną...</string>
     <string name="voice_dial_out">Rozmowa głosowa</string>
+    <string name="respond_via_sms_custom_message">Napisz własną...</string>
 </resources>

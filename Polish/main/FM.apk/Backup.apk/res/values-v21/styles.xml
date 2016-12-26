@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ScanQRTheme" parent="@miui:style/Theme.Dark.NoTitle">
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>

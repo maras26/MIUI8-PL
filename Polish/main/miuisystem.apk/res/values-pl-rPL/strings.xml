@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="android_ringtone_silent">Brak</string>
-    <string name="android_ringtone_unknown">Nieznany dźwięk</string>
+    <string name="android_ringtone_unknown">Nieznany dzwonek</string>
     <string name="presentation_payphone">Płatny</string>
     <string name="presentation_private">Prywatny</string>
     <string name="presentation_unknown">Nieznany</string>
@@ -20,6 +20,15 @@
     <string name="cloud_state_disabled">Synchronizacja z Chmurą wył</string>
     <string name="cloud_state_finished">Zsynchronizowano z Chmurą</string>
     <string name="cloud_state_syncing">Zsynchronizowano z Chmurą</string>
+    <string name="edit_frequent_phrases">Edytuj popularne frazy</string>
+    <string name="menu_add_frequent_phrases">Dodaj</string>
+    <string name="menu_edit">Edytuj</string>
+    <string name="menu_delete">Usuń</string>
+    <string name="frequent_phrases_des">Możesz wpisać popularne frazy, by wybrać je podczas wprowadzania tekstu po zaledwie kilku dotknięciach.</string>
+    <string name="add_frequent_phrases">Dodaj popularne frazy</string>
+    <string name="delete_frequent_phrases">Usuń frazę</string>
+    <string name="delete_frequent_phrases_confirm">Usunąć wybrane frazy?</string>
+    <string name="frequent_phrases_size_exceeded">Możesz dodać maksymalnie %1$d fraz. Usuń zbędne lub wpisz nowe.</string>
     <string name="default_name">Domyślnie</string>
     <string name="group_name_contacts">Kontakty</string>
     <string name="group_name_coworkers">Współpracownicy</string>

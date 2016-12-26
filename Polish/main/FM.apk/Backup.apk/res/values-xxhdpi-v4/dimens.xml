@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="trans_ami_width">143.0dip</dimen>
+    <dimen name="trans_ami_height">165.0dip</dimen>
+    <dimen name="scan_qrcode_side_length">263.0dip</dimen>
+    <dimen name="scan_qrcode_view_margin_top">152.0dip</dimen>
+</resources>

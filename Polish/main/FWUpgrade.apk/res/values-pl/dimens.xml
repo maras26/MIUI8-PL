@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_content_size">14.0sp</dimen>
+    <dimen name="public_title_size">20.0sp</dimen>
+    <dimen name="dialog_title_text_size">20.0sp</dimen>
+    <dimen name="dialog_message_text_size">16.0sp</dimen>
+    <dimen name="bottom_button_text_size">16.0sp</dimen>
+    <dimen name="common_item_text_size">16.0sp</dimen>
+    <dimen name="common_item_hint_text_size">12.0sp</dimen>
+    <dimen name="sdcard_filename_text_size">40.0sp</dimen>
+    <dimen name="sdcard_prompt_title_text_size">30.0sp</dimen>
+    <dimen name="default_left_margin">10.0dip</dimen>
+    <dimen name="default_right_margin">10.0dip</dimen>
+    <dimen name="default_top_margin">10.0dip</dimen>
+    <dimen name="default_bottom_margin">10.0dip</dimen>
+    <dimen name="setting_items_height">70.0dip</dimen>
+    <dimen name="default_dialog_min_width">280.0dip</dimen>
+</resources>

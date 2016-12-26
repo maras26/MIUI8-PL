@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/bottom_backup_button" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textAlignment="viewStart" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:background="#ffe5e5e5" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginStart="@dimen/progress_divider_margin_horizontal" android:layout_marginEnd="@dimen/progress_divider_margin_horizontal" />
+    <LinearLayout android:id="@id/bakcup_new_buttons" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bottom_button_margin_vertical" android:layout_marginBottom="@dimen/bottom_button_margin_vertical" android:layout_marginStart="@dimen/bottom_button_margin_horizontal" android:layout_marginEnd="@dimen/bottom_button_margin_horizontal">
+        <ImageButton android:gravity="center" android:id="@id/backup_start_encrypt" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/backup_unlock" android:layout_weight="1.0" style="@miui:style/Widget.Button" />
+        <Button android:textAppearance="@miui:style/TextAppearance.Widget.Button" android:textSize="@miui:dimen/button_text_size" android:gravity="center" android:id="@id/bakcup_new_backup" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/button_backup" android:maxLines="4" android:layout_weight="4.0" />
+    </LinearLayout>
+</LinearLayout>

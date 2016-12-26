@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="common_button_normal_color">#ffffffff</color>
+    <color name="common_button_pressed_color">#ffffffff</color>
+    <color name="cancel_button_gray">#ffa9a9a9</color>
+    <color name="current_version_text_color">#ff333333</color>
+    <color name="version_name_text_color">#ff22ac38</color>
+    <color name="tip_title_color">#ff333333</color>
+    <color name="progress_tip_color">#ff22ac38</color>
+    <color name="progress_size_color">#ff22ac38</color>
+    <color name="bottom_button_check_color">#ff333333</color>
+    <color name="app_name_color">#fff5f5f5</color>
+    <color name="option_pop_text_color">#ffcccccc</color>
+    <color name="theme_public_title_color">#ff4c4c4c</color>
+    <color name="theme_public_content_color">#ff333333</color>
+    <color name="theme_public_content_hint_color">#ff666666</color>
+</resources>

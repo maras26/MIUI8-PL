@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/auto_backup_setting" android:key="auto_backup_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:persistent="false" android:title="@string/auto_backup_open" android:key="local_auto_backup" android:defaultValue="false" />
+    <com.miui.backup.WeekdayPreference android:persistent="false" android:title="@string/auto_backup_date" android:key="local_auto_backup_date" android:dependency="local_auto_backup" />
+    <Preference android:persistent="false" android:title="@string/auto_backup_time" android:key="local_auto_backup_time" android:dependency="local_auto_backup" />
+    <Preference android:persistent="false" android:title="@string/auto_backup_choose" android:key="local_auto_backup_choose" android:dependency="local_auto_backup" />
+</PreferenceScreen>

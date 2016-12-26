@@ -19,7 +19,7 @@
     <string name="sender_fail">Nie można wysłać pliku</string>
     <string name="sender_interupt">Transfer przerwany</string>
     <string name="sender_cancel">Anuluj</string>
-    <string name="sender_complete">Ukończone</string>
+    <string name="sender_complete">Gotowe</string>
     <string name="receiver_accept">Akceptuj</string>
     <string name="receiver_reject">Odrzuć</string>
     <string name="receiver_insufficient_storage">Brak miejsca</string>
@@ -77,4 +77,5 @@
     <string name="intro_page2_choose_files">Wybierz dowolny plik i naciśnij \"Wyślij\"</string>
     <string name="intro_page3_choose_midrop">Wybierz \"MiDrop\"</string>
     <string name="intro_page3_choose_midrop2">Pliki zostaną wysłane natychmiastowo!</string>
+    <string name="runtime_permission_ungranted">Brak wystarczających uprawnień do uruchomienia MiDrop</string>
 </resources>

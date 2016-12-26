@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="theme_dialog_title_color" format="reference|color" />
+    <attr name="theme_dialog_message_color" format="reference|color" />
+    <attr name="theme_dialog_button_color" format="reference|color" />
+    <attr name="theme_public_title_color" format="reference|color" />
+    <attr name="theme_public_content_color" format="reference|color" />
+    <attr name="theme_public_content_hint_color" format="reference|color" />
+    <attr name="theme_button_normal_color" format="reference|color" />
+    <attr name="theme_button_pressed_color" format="reference|color" />
+    <attr name="theme_public_button_color" format="reference|color" />
+    <attr name="theme_progress_color" format="reference|color" />
+    <attr name="theme_version_color" format="reference|color" />
+    <attr name="theme_tip_content_color" format="reference|color" />
+</resources>

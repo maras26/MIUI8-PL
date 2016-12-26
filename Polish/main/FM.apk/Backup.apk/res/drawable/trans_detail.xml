@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<outside-compound
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:miui="http://schemas.android.com/apk/res/miui">
+    <item-base>
+        <selector>
+            <item android:drawable="@drawable/trans_detail_f_n" miui:state_first_v="true" />
+            <item android:drawable="@drawable/trans_detail_f_n" miui:state_single_v="true" />
+            <item android:drawable="@drawable/trans_detail_l_n" />
+        </selector>
+    </item-base>
+</outside-compound>

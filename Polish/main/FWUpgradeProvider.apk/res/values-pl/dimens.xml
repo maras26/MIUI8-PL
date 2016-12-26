@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="folder_ui_grid_title">22.0dip</dimen>
+    <dimen name="folder_ui_grid_top">8.0dip</dimen>
+    <dimen name="folder_ui_grid_columnwidth">64.0dip</dimen>
+    <dimen name="folder_ui_icon_width">60.0dip</dimen>
+    <dimen name="folder_ui_icon_height">60.0dip</dimen>
+    <dimen name="folder_common_title_height">44.0dip</dimen>
+    <dimen name="folder_dialog_title_height">50.0dip</dimen>
+    <dimen name="folder_dialog_default_width">218.0dip</dimen>
+    <dimen name="folder_appdetail_bottom_height">55.0dip</dimen>
+    <dimen name="folder_appdetail_header_height">100.0dip</dimen>
+    <dimen name="folder_appdetail_app_icon_height">80.0dip</dimen>
+    <dimen name="folder_appdetail_app_icon_width">80.0dip</dimen>
+    <dimen name="folder_appdetail_app_icon_margin">16.0dip</dimen>
+    <dimen name="folder_appdetail_viewpager_height">254.0dip</dimen>
+    <dimen name="folder_box_refresh_layout_height">120.0dip</dimen>
+    <dimen name="folder_refresh_recommend_layout_height">44.0dip</dimen>
+    <dimen name="folder_common_title_size">20.0sp</dimen>
+    <dimen name="folder_ui_grid_item_title">14.0sp</dimen>
+    <dimen name="folder_view_myprogressbar_text_size">16.0sp</dimen>
+    <dimen name="progress_inner_size">36.0dip</dimen>
+</resources>

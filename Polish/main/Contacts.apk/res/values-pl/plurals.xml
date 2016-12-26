@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="group_move_success_toast">
+        <item quantity="other">Przeniesiono %1$d kontaktów</item>
+    </plurals>
+    <plurals name="group_copy_success_toast">
+        <item quantity="other">Skopiowano %1$d kontaktów</item>
+    </plurals>
     <plurals name="listTotalPhoneContacts">
         <item quantity="other">Liczba kontaktów z numerami telefonów: %d</item>
         <item quantity="one">Liczba kontaktów z numerem telefonu: 1</item>
@@ -62,7 +68,7 @@
     </plurals>
     <plurals name="pick_recent_list_title">
         <item quantity="other">%1$d ostatnich kontaktów</item>
-        <item quantity="one">1 ostatni kontakt</item>
+        <item quantity="one">%1$d ostatni kontakt</item>
     </plurals>
     <plurals name="hint_search_contacts">
         <item quantity="other">%1$d kontaktów</item>
@@ -73,8 +79,12 @@
         <item quantity="one">%1$d numer</item>
     </plurals>
     <plurals name="hint_search_emails">
-        <item quantity="other">%1$d kontaktów email</item>
-        <item quantity="one">1 kontakt email</item>
+        <item quantity="other">%1$d emaili</item>
+        <item quantity="one">%1$d email</item>
+    </plurals>
+    <plurals name="hint_account_contacts">
+        <item quantity="other">%1$d znalezionych</item>
+        <item quantity="one">%1$d znaleziony</item>
     </plurals>
     <plurals name="pick_favorites_contacts_list_title">
         <item quantity="other">%1$d ulubionych</item>
@@ -90,11 +100,11 @@
     </plurals>
     <plurals name="btn_delete_multi_contacts">
         <item quantity="other">Usuń %d kontaktów</item>
-        <item quantity="one">Usuń kontakt</item>
+        <item quantity="one">Usuń %d kontakt</item>
     </plurals>
     <plurals name="smart_group_member_count">
         <item quantity="other">%d osób</item>
-        <item quantity="one">1 osoba</item>
+        <item quantity="one">%d osoba</item>
     </plurals>
     <plurals name="device_import_done_toast">
         <item quantity="other">%1$d importowanych kontaktów</item>
@@ -111,11 +121,11 @@
     </plurals>
     <plurals name="dlg_add_blacklist">
         <item quantity="other">Zablokować %1$d numerów telefonu?</item>
-        <item quantity="one">Zablokować ten numer telefonu?</item>
+        <item quantity="one">Zablokować %1$d numer telefonu?</item>
     </plurals>
     <plurals name="dlg_remove_blacklist">
         <item quantity="other">Odblokować %1$d numerów telefonu?</item>
-        <item quantity="one">Odblokować ten numer telefonu?</item>
+        <item quantity="one">Odblokować %1$d numer telefonu?</item>
     </plurals>
     <plurals name="voip_contacts_count">
         <item quantity="other">%1$d osób</item>
@@ -131,6 +141,6 @@
     </plurals>
     <plurals name="cloud_state_unsynced_count">
         <item quantity="other">%d kontaktów lub zdjęć do synchronizacji</item>
-        <item quantity="one">1 kontakt lub zdjęcie do synchronizacji</item>
+        <item quantity="one">%d kontakt lub zdjęcie do synchronizacji</item>
     </plurals>
 </resources>

@@ -60,33 +60,13 @@
         <item quantity="other">Rozpocznij generowanie raportu po %1$d naciśnięciach</item>
         <item quantity="one">Rozpocznij generowanie raportu po %1$d naciśnięciu</item>
     </plurals>
-    <plurals name="security_settings_fingerprint_preference_summary">
-        <item quantity="other">Ustawiono %1$d odcisku palca</item>
-        <item quantity="one">Ustawiono %1$d odcisk palca</item>
+    <plurals name="auto_disable_screenbuttons_enabled_header_title">
+        <item quantity="other">Wyłącz dla %d aplikacji</item>
+        <item quantity="one">Wyłączaj dla 1 aplikacji</item>
     </plurals>
-    <plurals name="zen_mode_summary_alarms_only_by_minute">
-        <item quantity="other">Zmień na same alarmy przez %1$d minuty, do %2$s</item>
-        <item quantity="one">Zmień na same alarmy przez minutę, do %2$s</item>
-    </plurals>
-    <plurals name="zen_mode_summary_alarms_only_by_hour">
-        <item quantity="other">Zmień na same alarmy przez %1$d godziny, do %2$s</item>
-        <item quantity="one">Zmień na same alarmy przez godzinę, do %2$s</item>
-    </plurals>
-    <plurals name="print_search_result_count_utterance">
-        <item quantity="other">Znalezione drukarki: %1$s</item>
-        <item quantity="one">Znaleziono %1$s drukarkę</item>
-    </plurals>
-    <plurals name="permissions_summary">
-        <item quantity="other">Przyznano %d uprawnienia</item>
-        <item quantity="one">Przyznano %d uprawnienie</item>
-    </plurals>
-    <plurals name="runtime_permissions_summary">
-        <item quantity="other">Przyznane uprawnienia: %1$d z %2$d</item>
-        <item quantity="one">Przyznane uprawnienia: %1$d z %2$d</item>
-    </plurals>
-    <plurals name="runtime_permissions_additional_count">
-        <item quantity="other">%d dodatkowego uprawnienia</item>
-        <item quantity="one">%d dodatkowe uprawnienie</item>
+    <plurals name="auto_disable_screenbuttons_disabled_header_title">
+        <item quantity="other">Nie wyłączaj dla %d aplikacji</item>
+        <item quantity="one">Nie wyłączaj dla 1 aplikacji</item>
     </plurals>
     <plurals name="domain_urls_apps_summary">
         <item quantity="other">%d aplikacji może otwierać obsługiwane przez siebie linki</item>
@@ -100,5 +80,37 @@
     <plurals name="memory_usage_apps_summary">
         <item quantity="other">%1$d aplikacji używało pamięci w ciągu ostatnich %2$s</item>
         <item quantity="one">Jedna aplikacja używała pamięci w ciągu ostatnich %2$s</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">Przyznano %d uprawnienia</item>
+        <item quantity="one">Przyznano %d uprawnienie</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">%d dodatkowego uprawnienia</item>
+        <item quantity="one">%d dodatkowe uprawnienie</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">Przyznane uprawnienia: %1$d z %2$d</item>
+        <item quantity="one">Przyznane uprawnienia: %1$d z %2$d</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">Ustawiono %1$d odcisku palca</item>
+        <item quantity="one">Ustawiono %1$d odcisk palca</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">Zmień na same alarmy przez %1$d godziny, do %2$s</item>
+        <item quantity="one">Zmień na same alarmy przez godzinę, do %2$s</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">Zmień na same alarmy przez %1$d minuty, do %2$s</item>
+        <item quantity="one">Zmień na same alarmy przez minutę, do %2$s</item>
+    </plurals>
+    <plurals name="print_search_result_count_utterance">
+        <item quantity="other">Znalezione drukarki: %1$s</item>
+        <item quantity="one">Znaleziono %1$s drukarkę</item>
+    </plurals>
+    <plurals name="connected_devices_number">
+        <item quantity="other">%d urządzeń</item>
+        <item quantity="one">%d urządzenie</item>
     </plurals>
 </resources>

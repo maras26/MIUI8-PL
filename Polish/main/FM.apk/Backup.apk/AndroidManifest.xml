@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.backup" package="com.miui.backup" platformBuildVersionCode="21" platformBuildVersionName="5.0.2">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.FORCE_STOP_PACKAGES"/>
+    <uses-permission android:name="android.permission.DELETE_PACKAGES"/>
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.WRITE_SMS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_APN_SETTINGS"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+    <uses-permission android:name="android.permission.BACKUP"/>
+    <uses-permission android:name="android.permission.UPDATE_DEVICE_STATS"/>
+    <uses-permission android:name="com.xiaomi.permission.CLOUD_MANAGER"/>
+    <uses-permission android:name="android.permission.READ_CALL_LOG"/>
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG"/>
+    <uses-permission android:name="com.android.voicemail.permission.ADD_VOICEMAIL"/>
+    <uses-permission android:name="com.android.voicemail.permission.READ_WRITE_ALL_VOICEMAIL"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="com.miui.notes.permission.ACCESS_NOTE"/>
+    <uses-permission android:name="android.permission.BIND_DEVICE_ADMIN"/>
+    <uses-permission android:name="android.permission.MANAGE_DEVICE_ADMINS"/>
+    <uses-permission android:name="miui.permission.SHELL"/>
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_SYNC_STATS"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.STATUS_BAR"/>
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE"/>
+    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS"/>
+    <uses-permission android:name="android.permission.UPDATE_APP_OPS_STATS"/>
+    <uses-permission android:name="android.permission.GET_APP_OPS_STATS"/>
+    <uses-permission android:name="android.miui.permission.SHELL"/>
+    <uses-permission android:name="android.permission.ACCESS_KEYGUARD_SECURE_STORAGE"/>
+    <uses-permission android:name="miui.permission.ACCESS_ALARM_PROVIDER"/>
+    <uses-permission android:name="com.miui.yellowpage.permission.ACCESS_YELLOWPAGE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.LOCATION_HARDWARE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+    <uses-permission android:name="com.android.fileexplorer.permission.DIRPARSE"/>
+    <uses-permission android:name="com.xiaomi.market.sdk.UPDATE"/>
+    <uses-permission android:name="android.permission.PEERS_MAC_ADDRESS"/>
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE"/>
+    <permission android:name="miui.permission.BACKUP_PROXY" android:protectionLevel="system|signature"/>
+    <application android:icon="@drawable/icon" android:label="@string/app_name" android:name="com.miui.backup.BackupApp" android:supportsRtl="true" android:theme="@style/Theme.Light.Show.Title" android:uiOptions="splitActionBarWhenNarrow">
+        <meta-data android:name="com.miui.backup.hasOneKeyMigrateFeature" android:value="true"/>
+        <uses-library android:name="cloud-common.jar"/>
+        <uses-library android:name="zxing.jar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation" android:exported="true" android:label="@string/app_name" android:name="com.miui.backup.BackupActivity" android:screenOrientation="portrait" android:theme="@style/BackupActivityTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation" android:excludeFromRecents="true" android:exported="true" android:label="@string/local_app_name" android:launchMode="singleTop" android:name="com.miui.backup.ui.ProgressPageActivity" android:permission="miui.permission.BACKUP_PROXY" android:screenOrientation="portrait" android:theme="@miui:style/Theme.Light.NoTitle">
+            <intent-filter>
+                <action android:name="miui.intent.action.BACKUP_PROXY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation" android:label="@string/enable_encrypt_title" android:launchMode="singleTop" android:name=".winzipaes.EnableEncryptActivity" android:screenOrientation="portrait" android:theme="@miui:style/Theme.Light.NoTitle"/>
+        <activity android:label="@string/app_name" android:name="com.miui.backup.auto.AutoBackupActivity" android:screenOrientation="portrait" android:theme="@miui:style/Theme.Light.Settings">
+            <intent-filter android:priority="125">
+                <action android:name="miui.intent.action.APP_SETTINGS_SHORTCUT"/>
+            </intent-filter>
+        </activity>
+        <receiver android:name="com.miui.backup.auto.AutoBackupReceiver" android:permission="com.miui.backup.permission.AUTO_BACKUP">
+            <intent-filter>
+                <action android:name="com.miui.backup.AutoBackupReceiver.ACTION_AUTO_BACKUP_REQUEST"/>
+                <action android:name="com.miui.backup.AutoBackupReceiver.ACTION_AUTO_BACKUP_TIME_UP"/>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="true" android:name="com.miui.backup.service.PriorityStorageBroadcastReceiver">
+            <intent-filter>
+                <action android:name="miui.intent.action.PRIORITY_STORAGE"/>
+            </intent-filter>
+            <meta-data android:name="miui.intent.extra.SET_PRIORITY_DEFAULT" android:value="true"/>
+            <meta-data android:name="miui.intent.extra.PRIORITY_STORAGE_KILL_APP" android:value="1"/>
+        </receiver>
+        <service android:exported="false" android:name="com.miui.backup.service.BRService" android:process=":remote"/>
+        <service android:exported="false" android:name="com.miui.backup.service.TransFileService" android:process=":remote"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation" android:label="@string/auto_backup_choose_title" android:launchMode="singleTop" android:name="com.miui.milk.auto.AutoBackupChooseActivity" android:screenOrientation="portrait" android:theme="@miui:style/Theme.Light"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation" android:launchMode="singleInstance" android:name="com.miui.backup.ui.ExceptionAlertActivity" android:screenOrientation="portrait" android:theme="@miui:style/Theme.Light.NoTitle"/>
+        <activity android:label="@string/backup_data" android:launchMode="singleTop" android:name=".ui.BackupSelectActivity" android:screenOrientation="portrait" android:theme="@miui:style/Theme.Light.NoTitle"/>
+        <activity android:label="@string/local_app_name" android:launchMode="singleTop" android:name=".ui.RestoreSelectActivity" android:screenOrientation="portrait" android:theme="@miui:style/Theme.Light.NoTitle"/>
+        <activity android:launchMode="singleTop" android:name=".ui.DetailActivity" android:screenOrientation="portrait" android:theme="@miui:style/Theme.Light.NoTitle"/>
+        <activity android:launchMode="singleTop" android:name=".auto.AutoBackupChoose" android:screenOrientation="portrait" android:theme="@miui:style/Theme.Light.NoTitle"/>
+        <activity android:excludeFromRecents="true" android:label="@string/trans_one_key_migrate" android:launchMode="singleTop" android:name=".ui.TransActivity" android:screenOrientation="portrait" android:theme="@miui:style/Theme.Light.NoTitle"/>
+        <activity android:exported="true" android:label="@string/trans_one_key_migrate" android:name=".ui.TransMainActivity" android:screenOrientation="portrait" android:theme="@style/Theme.OneKeyMigrate">
+            <intent-filter>
+                <action android:name="miui.intent.action.BACKUP_TRANSFER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/trans_select_data" android:name=".ui.TransSelectActivity" android:screenOrientation="portrait" android:theme="@miui:style/Theme.Light.NoTitle"/>
+        <activity android:exported="true" android:label="@string/trans_one_key_migrate" android:name=".ui.ScanQRCodeActivity" android:screenOrientation="portrait" android:theme="@style/ScanQRTheme"/>
+        <activity android:exported="true" android:label="@string/trans_show_qr_code_label" android:name=".ui.ShowQRCodeActivity" android:screenOrientation="portrait"/>
+        <service android:enabled="true" android:exported="true" android:label="MidropTransmitter" android:name="midrop.service.transmitter.manipulator.DeviceManipulatorService" android:permission="android.permission.INTERNET" android:process=":remote">
+            <intent-filter>
+                <action android:name="midrop.api.transmitter.IDeviceManipulatorService"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="true" android:label="MidropTransmitter" android:name="midrop.service.transmitter.fileserver.FileServerService" android:permission="android.permission.INTERNET" android:process=":remote">
+            <intent-filter>
+                <action android:name="midrop.api.transmitter.IFileServerService"/>
+            </intent-filter>
+        </service>
+        <receiver android:name="com.xiaomi.market.sdk.DownloadCompleteReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETE"/>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

@@ -40,6 +40,14 @@
         <item quantity="few">%1$d plików do skopiowania</item>
         <item quantity="many">%1$d plików do skopiowania</item>
     </plurals>
+    <plurals name="ui_bar_txt_transport_progress">
+        <item quantity="other">%1$d plików pozostało</item>
+        <item quantity="zero">%1$d plików pozostało</item>
+        <item quantity="one">%1$d plik pozostał</item>
+        <item quantity="two">%1$d plików pozostało</item>
+        <item quantity="few">%1$d plików pozostało</item>
+        <item quantity="many">%1$d plików pozostało</item>
+    </plurals>
     <plurals name="numSelectedFile">
         <item quantity="other">Wybranych %1$d</item>
         <item quantity="zero">Wybrano %1$d</item>
@@ -120,6 +128,38 @@
         <item quantity="few">%1$d dni temu</item>
         <item quantity="many">%1$d dni temu</item>
     </plurals>
+    <plurals name="seconds">
+        <item quantity="other">%1$d sekund</item>
+        <item quantity="zero">%1$d sekund</item>
+        <item quantity="one">%1$d sekunda</item>
+        <item quantity="two">%1$d sekund</item>
+        <item quantity="few">%1$d sekund</item>
+        <item quantity="many">%1$d sekund</item>
+    </plurals>
+    <plurals name="mins">
+        <item quantity="other">%1$d min</item>
+        <item quantity="zero">%1$d min</item>
+        <item quantity="one">%1$d min</item>
+        <item quantity="two">%1$d min</item>
+        <item quantity="few">%1$d min</item>
+        <item quantity="many">%1$d min</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%1$d godz.</item>
+        <item quantity="zero">%1$d godz.</item>
+        <item quantity="one">%1$d godz.</item>
+        <item quantity="two">%1$d godz.</item>
+        <item quantity="few">%1$d godz.</item>
+        <item quantity="many">%1$d godz.</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="other">%1$d dni</item>
+        <item quantity="zero">%1$d dni</item>
+        <item quantity="one">%1$d dzień</item>
+        <item quantity="two">%1$d dni</item>
+        <item quantity="few">%1$d dni</item>
+        <item quantity="many">%1$d dni</item>
+    </plurals>
     <plurals name="found_new_files">
         <item quantity="other">Znaleziono %1$d nowych plików</item>
         <item quantity="zero">Znaleziono %1$d nowych plików</item>
@@ -136,12 +176,108 @@
         <item quantity="few">Otrzymano %1$d plików od %2$s</item>
         <item quantity="many">Otrzymano %1$d plików od %2$s</item>
     </plurals>
+    <plurals name="file_notify_title_wechat_video">
+        <item quantity="other">Received %1$d files of WeChat</item>
+        <item quantity="zero">Received %1$d file of WeChat</item>
+        <item quantity="one">Received %1$d file of WeChat</item>
+        <item quantity="two">Received %1$d files of WeChat</item>
+        <item quantity="few">Received %1$d files of WeChat</item>
+        <item quantity="many">Received %1$d files of WeChat</item>
+    </plurals>
+    <plurals name="file_notify_title_wechat_video_expire">
+        <item quantity="other">%1$d WeChat videos are about to expire</item>
+        <item quantity="zero">%1$d WeChat videos are about to expire</item>
+        <item quantity="one">%1$d WeChat video is about to expire</item>
+        <item quantity="two">%1$d WeChat videos are about to expire</item>
+        <item quantity="few">%1$d WeChat videos are about to expire</item>
+        <item quantity="many">%1$d WeChat videos are about to expire</item>
+    </plurals>
+    <plurals name="backup_message_wechat_video">
+        <item quantity="other">"%1$d videos in WeChat conversations are about to expire. Back them up to your device's internal storage?"</item>
+        <item quantity="zero">"%1$d videos in WeChat conversations are about to expire. Back them up to your device's internal storage?"</item>
+        <item quantity="one">"%1$d video in WeChat conversations is about to expire. Back it up to your device's internal storage?"</item>
+        <item quantity="two">"%1$d videos in WeChat conversations are about to expire. Back them up to your device's internal storage?"</item>
+        <item quantity="few">"%1$d videos in WeChat conversations are about to expire. Back them up to your device's internal storage?"</item>
+        <item quantity="many">"%1$d videos in WeChat conversations are about to expire. Back them up to your device's internal storage?"</item>
+    </plurals>
+    <plurals name="file_notify_title_wechat_sticker">
+        <item quantity="other">%1$d new WeChat stickers today</item>
+        <item quantity="zero">%1$d new WeChat sticker today</item>
+        <item quantity="one">%1$d new WeChat sticker today</item>
+        <item quantity="two">%1$d new WeChat stickers today</item>
+        <item quantity="few">%1$d new WeChat stickers today</item>
+        <item quantity="many">%1$d new WeChat stickers today</item>
+    </plurals>
+    <plurals name="file_notify_title_wechat_video_auto_backup">
+        <item quantity="other">Backed up %1$d WeChat videos.</item>
+        <item quantity="zero">Backed up %1$d WeChat videos.</item>
+        <item quantity="one">Backed up 1 WeChat video.</item>
+        <item quantity="two">Backed up %1$d WeChat videos.</item>
+        <item quantity="few">Backed up %1$d WeChat videos.</item>
+        <item quantity="many">Backed up %1$d WeChat videos.</item>
+    </plurals>
     <plurals name="remote_video_update">
-        <item quantity="other">Znaleziono %1$d nowych filmów</item>
-        <item quantity="zero">Znaleziono %1$d nowych filmów</item>
-        <item quantity="one">Znaleziono %1$d nowy film</item>
-        <item quantity="two">Znaleziono %1$d nowych filmów</item>
-        <item quantity="few">Znaleziono %1$d nowych filmów</item>
-        <item quantity="many">Znaleziono %1$d nowych filmów</item>
+        <item quantity="other">Znaleziono %1$s nowych filmów</item>
+        <item quantity="zero">Znaleziono %1$s nowych filmów</item>
+        <item quantity="one">Znaleziono %1$s nowy film</item>
+        <item quantity="two">Znaleziono %1$s nowych filmów</item>
+        <item quantity="few">Znaleziono %1$s nowych filmów</item>
+        <item quantity="many">Znaleziono %1$s nowych filmów</item>
+    </plurals>
+    <plurals name="video_ad_download_tip">
+        <item quantity="other">Pobrań</item>
+        <item quantity="zero">Pobrań</item>
+        <item quantity="one">Pobranie</item>
+        <item quantity="two">Pobrania</item>
+        <item quantity="few">Pobrań</item>
+        <item quantity="many">Pobrań</item>
+    </plurals>
+    <plurals name="video_play_num">
+        <item quantity="other">%1$s views</item>
+        <item quantity="zero">%1$s views</item>
+        <item quantity="one">%1$s view</item>
+        <item quantity="two">%1$s views</item>
+        <item quantity="few">%1$s views</item>
+        <item quantity="many">%1$s views</item>
+    </plurals>
+    <plurals name="video_num">
+        <item quantity="other">%1$s filmów</item>
+        <item quantity="zero">%1$s filmów</item>
+        <item quantity="one">%1$s video</item>
+        <item quantity="two">%1$s filmów</item>
+        <item quantity="few">%1$s filmów</item>
+        <item quantity="many">%1$s filmów</item>
+    </plurals>
+    <plurals name="follower_num">
+        <item quantity="other">followers</item>
+        <item quantity="zero">followers</item>
+        <item quantity="one">follower</item>
+        <item quantity="two">followers</item>
+        <item quantity="few">followers</item>
+        <item quantity="many">followers</item>
+    </plurals>
+    <plurals name="user_upload_items">
+        <item quantity="other">filmów</item>
+        <item quantity="zero">filmów</item>
+        <item quantity="one">film</item>
+        <item quantity="two">filmów</item>
+        <item quantity="few">filmów</item>
+        <item quantity="many">filmów</item>
+    </plurals>
+    <plurals name="number_of_comment">
+        <item quantity="other">%1$s comments</item>
+        <item quantity="zero">%1$s comments</item>
+        <item quantity="one">%1$s comment</item>
+        <item quantity="two">%1$s comments</item>
+        <item quantity="few">%1$s comments</item>
+        <item quantity="many">%1$s comments</item>
+    </plurals>
+    <plurals name="video_count">
+        <item quantity="other">%1$s filmów</item>
+        <item quantity="zero">%1$s filmów</item>
+        <item quantity="one">%1$s video</item>
+        <item quantity="two">%1$s filmów</item>
+        <item quantity="few">%1$s filmów</item>
+        <item quantity="many">%1$s filmów</item>
     </plurals>
 </resources>

@@ -25,6 +25,6 @@
     <string name="send_sms">Wyślij SMS</string>
     <string name="search_the_yellowpage">Powrót do listy kontaktów</string>
     <string name="edit_contact">Dodaj do kontaktu</string>
-    <string name="call_log_provider_label">Rejestr połączeń</string>
-    <string name="third_party_delete_contact_info">Aplikacja \"%s\" usuwa kontakty na koncie Xiaomi. Użyj aplikacji Kontakty aby sprawdzić bezpieczeństwo swoich kontaktów.</string>
+    <string name="call_log_provider_label">Historia połączeń</string>
+    <string name="third_party_delete_contact_info">Aplikacja \"%s\" usuwa kontakty na koncie Xiaomi. Użyj aplikacji Kontakty, aby sprawdzić bezpieczeństwo swoich kontaktów.</string>
 </resources>

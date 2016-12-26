@@ -5,11 +5,6 @@
         <item>"Dzisiaj "</item>
         <item>"W tym miesiącu "</item>
     </string-array>
-    <string-array name="date_of_traffic_prefix">
-        <item>"Wczoraj: "</item>
-        <item>"Dzisiaj: "</item>
-        <item>"Ten miesiąc: "</item>
-    </string-array>
     <string-array name="date_of_app_all">
         <item>Wczoraj (3G)</item>
         <item>Dzisiaj (3G)</item>
@@ -32,15 +27,6 @@
         <item>8 sekund</item>
         <item>9 sekund</item>
     </string-array>
-    <string-array name="traffic_type">
-        <item>"Dane 3G "</item>
-        <item>"Dane Wi-Fi "</item>
-        <item>"Oszczędności transferu "</item>
-    </string-array>
-    <string-array name="mi_service_traffic_type">
-        <item>"Użycie 3G "</item>
-        <item>"Użycie Wi-Fi "</item>
-    </string-array>
     <string-array name="traffic_sort_type">
         <item>"Użyciu danych 3G "</item>
         <item>"Użyciu danych Wi-Fi "</item>
@@ -49,6 +35,20 @@
     <string-array name="traffic_setting_sms_template">
         <item>Uzyskaj szablon wiadomości automatycznie</item>
         <item>Ustaw ręcznie szablon wiadomości</item>
+    </string-array>
+    <string-array name="date_of_traffic_prefix">
+        <item>"Wczoraj: "</item>
+        <item>"Dzisiaj: "</item>
+        <item>"Ten miesiąc: "</item>
+    </string-array>
+    <string-array name="traffic_type">
+        <item>"Dane 3G "</item>
+        <item>"Dane Wi-Fi "</item>
+        <item>"Oszczędności transferu "</item>
+    </string-array>
+    <string-array name="mi_service_traffic_type">
+        <item>"Użycie 3G "</item>
+        <item>"Użycie Wi-Fi "</item>
     </string-array>
     <string-array name="over_limit_traffic_waring_style">
         <item>Pokaż ostrzeżenie</item>

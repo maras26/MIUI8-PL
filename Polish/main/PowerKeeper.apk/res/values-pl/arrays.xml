@@ -45,18 +45,18 @@
         <item>Gdy wyłączony ekran</item>
     </string-array>
     <string-array name="app_groups">
-        <item>Wybrane</item>
+        <item>W tym trybie</item>
         <item>Niewybrane</item>
-        <item>Pozostałe</item>
+        <item>W pozostałych trybach</item>
     </string-array>
     <string-array name="hmode_app_groups">
         <item>Własne ustawienia</item>
         <item>Sugerowane ustawienia</item>
     </string-array>
     <string-array name="power_checker_group_prefix">
-        <item>z wykorzystaniem</item>
-        <item></item>
-        <item></item>
+        <item>Uruchomione</item>
+        <item>W tle</item>
+        <item>Ostatnie</item>
     </string-array>
     <string-array name="power_checker_running_group_titles">
         <item>Kernel WakeLock</item>
@@ -69,14 +69,14 @@
     <string-array name="power_checker_recent_group_titles">
         <item>Kernel WakeLock</item>
         <item>WakeLock</item>
-        <item>Skanowanie Wi-Fi</item>
-        <item>GPS</item>
-        <item>CPU</item>
+        <item>Wyszukiwanie Wi-Fi</item>
+        <item>Szukanie GPS</item>
+        <item>Wykorzystanie CPU</item>
         <item>Wybudzenie</item>
     </string-array>
     <string-array name="power_checker_group_suffix">
         <item></item>
-        <item>too much right now</item>
-        <item>too much in these day</item>
+        <item></item>
+        <item></item>
     </string-array>
 </resources>

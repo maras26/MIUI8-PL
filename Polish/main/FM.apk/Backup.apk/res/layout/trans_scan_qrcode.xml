@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SurfaceView android:layout_gravity="center" android:id="@id/sfv_preview_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.miui.backup.ui.QRCodeScanView android:id="@id/qrcode_scan_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:gravity="center" android:layout_gravity="center|top" android:orientation="horizontal" android:id="@id/lyt_waiting_tips" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="272.0dip">
+        <miui.widget.ProgressBar android:id="@id/view_progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyle" />
+        <TextView android:textSize="@dimen/trans_scan_qrcode_text_size" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/trans_connecting_toast" android:layout_toRightOf="@id/view_progress_bar" />
+    </RelativeLayout>
+    <LinearLayout android:layout_gravity="bottom|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="200.0dip">
+        <TextView android:textSize="@dimen/trans_scan_qrcode_text_size" android:textColor="@android:color/white" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/trans_scan_qr_code_tips" />
+        <TextView android:textSize="@dimen/trans_scan_qrcode_text_size" android:textColor="@android:color/white" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" android:text="@string/trans_operate_new_phone_tips" />
+    </LinearLayout>
+</FrameLayout>

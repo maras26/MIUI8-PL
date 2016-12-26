@@ -6,5 +6,4 @@
     <string name="label_shutdown">Выключение</string>
     <string name="label_alert_reboot">Нажмите для перезагрузки</string>
     <string name="label_alert_shutdown">Нажмите для выключения</string>
-    <string name="label_blank">Назад</string>
 </resources>

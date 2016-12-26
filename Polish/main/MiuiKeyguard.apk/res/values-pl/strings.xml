@@ -33,7 +33,6 @@
     <string name="phone_locked_string">Urządzenie zablokowane</string>
     <string name="phone_locked_timeout_seconds_string">Spróbuj ponownie za %s s</string>
     <string name="phone_locked_timeout_minutes_string">Spróbuj ponownie za %s min</string>
-    <string name="input_password_hint_text">Wpisz hasło</string>
     <string name="unlock_sim_string">Odblokuj</string>
     <string name="lockscreen_glogin_submit_button">Wpisz się</string>
     <string name="lockscreen_access_pattern_start">Wzór rozpoczęty</string>
@@ -55,14 +54,23 @@ Urządzenie zostanie zresetowane do ustawień fabrycznych!"</string>
     <string name="confirm_pin_msg">Wpisz ponownie PIN</string>
     <string name="invalid_confirm_pin_hint">Kody PIN nie są takie same</string>
     <string name="unlock_string">Odblokuj</string>
-    <string name="open_camera_hint_text">Przesuń w lewo do Aparatu</string>
-    <string name="open_remote_center_hint_text">Przesuń w prawo do Dialera</string>
+    <string name="open_camera_hint_text">Przesuń w lewo do %s</string>
+    <string name="open_remote_center_hint_text">Przesuń w prawo do %s</string>
+    <string name="left_action_default_hint_text">MiPilota</string>
     <string name="click_to_enter_text">Dotknij by odblokować</string>
     <string name="fingerprint_try_again_text">Spróbuj ponownie</string>
     <string name="fingerprint_not_identified_title">Wpisz hasło</string>
     <string name="fingerprint_not_identified_msg">Wpisz hasło, aby odblokować</string>
     <string name="invalid_sim_pin_hint">Wpisz PIN. (4-8 cyfr)</string>
     <string name="invalid_sim_puk_hint">Kod PUK to 8 lub więcej cyfr</string>
-    <string name="input_password_after_boot_msg">Po ponownym uruchomieniu będziesz musiał wpisać hasło.</string>
-    <string name="set_lock_wallpaper_failed">Brak nowej tapety</string>
+    <string name="input_password_hint_text">Wpisz hasło</string>
+    <string name="input_pattern_hint_text">Narysuj wzór odblokowania</string>
+    <string name="input_password_after_boot_msg">Wpisz hasło aby odblokować urządzenie</string>
+    <string name="fingerprint_lockout_msg">Poczekaj minutę i spróbuj ponownie</string>
+    <string name="accessibility_enter_lock_wallpaper">Dotknij, aby zmienić tapety</string>
+    <string name="lock_wallpaper_learn_more">Więcej</string>
+    <string name="lock_wallpaper_enter">Przejdź</string>
+    <string name="fingerprint_enter_second_psw_title">Wpisz hasło drugiego profilu</string>
+    <string name="fingerprint_enter_second_psw_msg">Wpisz hasło do drugiego profilu po ponownym uruchomieniu urządzenia, aby móc korzystać z rozpoznawania odcisku palca</string>
+    <string name="lock_wallpaper_see_more">Więcej</string>
 </resources>

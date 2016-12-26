@@ -8,4 +8,8 @@
         <item quantity="other">Ukryć powiadomienia dla %d aplikacji?</item>
         <item quantity="one">Ukryć powiadomienia tej aplikacji?</item>
     </plurals>
+    <plurals name="view_realtime_clear">
+        <item quantity="other">Bezchmurnie</item>
+        <item quantity="one">Słonecznie</item>
+    </plurals>
 </resources>

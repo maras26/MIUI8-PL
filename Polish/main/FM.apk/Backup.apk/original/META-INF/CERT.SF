@@ -1,0 +1,379 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+SHA1-Digest-Manifest: DsyRrOaPhmWox9q/zWXMhOMKl+Y=
+
+Name: res/drawable-xxhdpi-v4/transing_in_progress.png
+SHA1-Digest: TlWtUXgFS/wtaGg6qypaUr6gzhA=
+
+Name: res/drawable-xxhdpi-v4/backup_logo.png
+SHA1-Digest: ZregRCW411zGrsfmTLe62FgWQj0=
+
+Name: res/layout/trans_scan_qrcode.xml
+SHA1-Digest: twK6QpZdcgyVVeBlPoGVFq30jPs=
+
+Name: jcifs/http/ne.css
+SHA1-Digest: AoBgNfAPeBCIqon6/d9RuDQV/8A=
+
+Name: res/layout/progress_item.xml
+SHA1-Digest: YTsIfvndDQNf3vbs5dg+1t1ji6M=
+
+Name: res/menu/edit_mode_menu.xml
+SHA1-Digest: 5BuhsSfSi36RUunKl00sl3lnBYQ=
+
+Name: res/layout/cloud_select_item.xml
+SHA1-Digest: haJ8e2UllVUO3MDab8wmk9VuHeI=
+
+Name: res/xml/local_auto_backup.xml
+SHA1-Digest: cVA9MEmCaDjWMnpZNaOC1ksY9s4=
+
+Name: res/drawable/arrows_animation.xml
+SHA1-Digest: e2WZTElsvKqp8R3q9aFbRdoKzA4=
+
+Name: res/layout/trans_detail_category_item.xml
+SHA1-Digest: yIuj7to+TunVts9ZRrBob+QHB3w=
+
+Name: res/drawable-xxhdpi-v4/icon_transing.png
+SHA1-Digest: RLGXw16J2EGOObK3muMumIUDJFU=
+
+Name: res/drawable-xxhdpi-v4/trans_failed.png
+SHA1-Digest: ciU/183YIvwLzlX5oatBUFnfo/E=
+
+Name: res/xml/local_auto_backup_choose.xml
+SHA1-Digest: HZMgPsz6WTbqoPUc07OdIV1QKlk=
+
+Name: res/layout/trans_main_activity.xml
+SHA1-Digest: gWEsgLX+5uuNVkF8yxt4ojtxAjI=
+
+Name: res/layout/data_detail_item.xml
+SHA1-Digest: Jhfs3VNCyT/7i6Dzl8hS8+YpdQ8=
+
+Name: res/drawable-xxhdpi-v4/account_category.png
+SHA1-Digest: TlhMrIGVtn4bAMQjykuVfLL0q8Y=
+
+Name: res/layout/data_detail.xml
+SHA1-Digest: zFJvjZW7+41kH2K8kTEUi+SEYW4=
+
+Name: res/layout/trans_fragment.xml
+SHA1-Digest: oBFH2rK80kXHIO5y41TbLHmm5z0=
+
+Name: res/layout/trans_show_qrcode.xml
+SHA1-Digest: +8dzil3qLB2M1lMWllhE9yW9cIk=
+
+Name: res/anim/appear.xml
+SHA1-Digest: xTx9DkAA3hT8Kgv/DFxAgd3HOzY=
+
+Name: res/drawable-xxhdpi-v4/trans_arrows_3.png
+SHA1-Digest: zJyRfZIFcKrf5KhV6nU+/5H7Uuo=
+
+Name: res/drawable-xxhdpi-v4/framing_rect.9.png
+SHA1-Digest: c/LA/qaDiMMchdbvDD/bTlVb13c=
+
+Name: res/raw/milk.bks
+SHA1-Digest: 9U74cH1xwUteN/E4GFz7lruW4SI=
+
+Name: javax/servlet/LocalStrings.properties
+SHA1-Digest: 4ZUxdNhzaw38WrkUzb7PuSMWuWQ=
+
+Name: res/drawable-xxhdpi-v4/backup_restore_data_bg.9.png
+SHA1-Digest: uNAkLTgz+z2tnDbAFxEyqwEaTuk=
+
+Name: res/drawable-xxhdpi-v4/icon_new_phone.png
+SHA1-Digest: T6ycny3YvkP2ZuO2kdmk7xKF9uw=
+
+Name: jcifs/smb/SmbComCheckDirectory.jav
+SHA1-Digest: dhNkvhHzYuHzycz0W2S36CbpijY=
+
+Name: res/layout/local_backup_main_bottom.xml
+SHA1-Digest: mkddK2bLp30fraM9pCCgADKkKwQ=
+
+Name: res/drawable-xxhdpi-v4/scan_mask_bg.png
+SHA1-Digest: eqEZqts8QaGh7+ethYGiZF71PmA=
+
+Name: lib/javax.servlet-3.0.jar
+SHA1-Digest: wz4TCL1EwMkzxQNaXZLu3Z7Zle4=
+
+Name: res/layout/backup_main.xml
+SHA1-Digest: 9w6Ti08bgmlNz5+ZnIlXvDQKuHc=
+
+Name: res/drawable-xxhdpi-v4/file_icon_file.png
+SHA1-Digest: hdLm+V/SOTes1uMK1TRYHw3ZVGU=
+
+Name: res/drawable-xxhdpi-v4/image_category.png
+SHA1-Digest: mtyEld31hkNX54kiMH5L483AQIU=
+
+Name: res/layout/local_backup_main_title.xml
+SHA1-Digest: djuOE8GbkaqILRL23HTTDHrQt9A=
+
+Name: jcifs/smb/SmbComEchoResponse.jav
+SHA1-Digest: 4n9THrpL8+XhHX8cCc/TnJjdowA=
+
+Name: res/drawable-xxhdpi-v4/icon_other_device.png
+SHA1-Digest: WAo30kXQjQbXssunCgaaapAAcxY=
+
+Name: .project
+SHA1-Digest: MJQSKWq5/mQqVeaBnDiB1MchPUg=
+
+Name: lib/jce.jar
+SHA1-Digest: Jc/idiCcye2mwfFXLMqO4u/H/b8=
+
+Name: res/layout/data_select.xml
+SHA1-Digest: /jW5nwtVsjtDSd1SMmZSrRgGkew=
+
+Name: res/layout/progress_page.xml
+SHA1-Digest: lzz5haCSlT+0xr36GyFwMAEzZ6Y=
+
+Name: resources.arsc
+SHA1-Digest: qoIfi4deSt9LNsCejAgVZgcr/VQ=
+
+Name: res/drawable-xxhdpi-v4/progress_succeed.png
+SHA1-Digest: FzWahzlKqoRzZzSEuPnKyLywpcc=
+
+Name: res/drawable-xxhdpi-v4/icon_star2.png
+SHA1-Digest: EwIb2Bc8x2FLQhhpi2hm1FhzraA=
+
+Name: res/layout/local_backup_item.xml
+SHA1-Digest: /ZEjmpGEvAKeNYI4rz6/O360cto=
+
+Name: assets/device/ddd_MidropDevice.xml
+SHA1-Digest: FAUDUNxqb6Wyn47cx+dydzh1orE=
+
+Name: javax/servlet/http/LocalStrings_fr.properties
+SHA1-Digest: TXVbG+MELzHL0E2hT+6DUGQlvCc=
+
+Name: AndroidManifest.xml
+SHA1-Digest: 6qsQ/gm76xWddutbAPirygsKvQk=
+
+Name: javax/servlet/LocalStrings_fr.properties
+SHA1-Digest: 8SH0uMKLKLtWPk1xu6WAtlCXlTU=
+
+Name: res/layout/progress_result_item.xml
+SHA1-Digest: NLqxwVdyfBXFpObU2tO5HdiDOn4=
+
+Name: res/layout/edit_mode_title_bar_with_default.xml
+SHA1-Digest: ax8eoRvLyjSMJhL/b0DBtFTXw2g=
+
+Name: res/drawable/qrcode_border_bg.xml
+SHA1-Digest: 8H9iyKTyX7ywueXKhU0+q1wLzpA=
+
+Name: res/layout/navigation_list.xml
+SHA1-Digest: RhTrlcihyTt89hW5q97oZY1yZms=
+
+Name: res/layout/local_backup_main.xml
+SHA1-Digest: QI2LbpT3licuprmyzQURuQ57X3s=
+
+Name: javax/servlet/http/LocalStrings_es.properties
+SHA1-Digest: u5GkcQtTbxIUyB6j61SCCRV9qzg=
+
+Name: res/drawable-xxhdpi-v4/expander_group_header_bg.9.png
+SHA1-Digest: qm5EgntUv8p8ZPq12J7ITc0JSU8=
+
+Name: res/layout/auto_backup_choose_item.xml
+SHA1-Digest: FxUgJp++z+DwkWVolCIe0CUOCi8=
+
+Name: res/layout/qrcode_scan_view.xml
+SHA1-Digest: nzO9LAyHiYS+neUx+dGa3yeAOKU=
+
+Name: res/drawable-xxhdpi-v4/laser_scanner.9.png
+SHA1-Digest: pjq8SBtxhQox+4+gGNlBVnjMxHs=
+
+Name: res/layout/trans_select_fragment.xml
+SHA1-Digest: ItvCgvTyq+eeMVVvEE5WgDtOhlg=
+
+Name: javax/servlet/LocalStrings_ja.properties
+SHA1-Digest: w3KMlE7pusFpTiIsmsQ+WppOzN0=
+
+Name: res/drawable-xxhdpi-v4/miui_navigation_list_bg.9.png
+SHA1-Digest: yKOP5pegP/V12txAD6aWf1eY6Tw=
+
+Name: res/drawable-xxhdpi-v4/sys_data_category.png
+SHA1-Digest: H16yW4jdkiNNr7Ap1sOHOQk8GIU=
+
+Name: res/drawable-xxhdpi-v4/transing_progress_bg.png
+SHA1-Digest: NHgBtZniFbd1bO8cZpys1LYdqUA=
+
+Name: javax/servlet/http/LocalStrings.properties
+SHA1-Digest: 2R7M5AGp3u3K1SXwgnBATlJTD/U=
+
+Name: res/layout/local_select_list_header.xml
+SHA1-Digest: 8koa8hdRnlcAGhk0ja1+J/XlZv4=
+
+Name: res/drawable-xxhdpi-v4/in_progress.png
+SHA1-Digest: 0vmseV+xI3zVrr4QIDUoj+J490Y=
+
+Name: jcifs/dcerpc/msrpc/srvsvc.idl
+SHA1-Digest: GxcGc157+aS/rUesapwIELh6yeE=
+
+Name: res/drawable-xxhdpi-v4/backup_unlock.png
+SHA1-Digest: 90Jit2iU0F2TR0P3eSlb1Bra8zo=
+
+Name: res/drawable-xxhdpi-v4/doc_category.png
+SHA1-Digest: GHA9kL0wp+FtO8V+zJC2pyN8pZs=
+
+Name: res/drawable-xxhdpi-v4/backup_lock.png
+SHA1-Digest: iuavDo/2dC6ZrHfkW7iaquyRtYA=
+
+Name: res/drawable-xxhdpi-v4/notification.png
+SHA1-Digest: bK7d5zheAbm9Fdc+FVO6q/UYCDw=
+
+Name: res/drawable-xxhdpi-v4/restore_title_bg.9.png
+SHA1-Digest: EU9ZOwJJ2relmEtGFIXy3xq34q4=
+
+Name: res/anim/disappear.xml
+SHA1-Digest: SZXZGsetpPFECXuS9Nm8/vej8IQ=
+
+Name: jcifs/smb/SmbComEcho.jav
+SHA1-Digest: 4vVr9KgsVFWG309oAALq6GGHOvo=
+
+Name: res/drawable-xxhdpi-v4/trans_detail_l_n.9.png
+SHA1-Digest: 5vo0r6V2pgDxDliRf7h/+8HIKwc=
+
+Name: .classpath
+SHA1-Digest: cAvV3QzOIhleAd0h4bkA0GENdr8=
+
+Name: jcifs/util/mime.map
+SHA1-Digest: prPKS54d4FM1d0GAO8mC8AbL8jQ=
+
+Name: res/raw/beep.ogg
+SHA1-Digest: xpqVdQ9OfcbIlU9rS3rOsbnNJVE=
+
+Name: jcifs/dcerpc/msrpc/netdfs.idl
+SHA1-Digest: q0PmFMyi5ZzrWR/2lNetmd+npb8=
+
+Name: res/layout/anim_icon_view.xml
+SHA1-Digest: oVrk6IEkZudrt7VPDwPGZ0OgzPo=
+
+Name: res/drawable-xxhdpi-v4/router_img.png
+SHA1-Digest: YFE+1KIenHdHopiHUV7uEaFzw4A=
+
+Name: res/xml/miui_manifest.xml
+SHA1-Digest: OvTy79T4wVm2sKi5vCxeEopaDUE=
+
+Name: res/drawable-xxhdpi-v4/circle_progress_foreground.png
+SHA1-Digest: TWRfAwGad2gJGWb6YS3UJ0KtRP0=
+
+Name: res/layout/local_select_list.xml
+SHA1-Digest: CRRtlCDziC6GE7X++4g/4pS0IeQ=
+
+Name: res/drawable-xxhdpi-v4/divider.png
+SHA1-Digest: SByF39WBUQVo/QjjYW1xeALmWmE=
+
+Name: jcifs/dcerpc/msrpc/samr.idl
+SHA1-Digest: /G9EcMzFYalM7B9KBrkD+6HJM28=
+
+Name: res/drawable-xxhdpi-v4/video_category.png
+SHA1-Digest: xXZte8iP3wVT3CcKvahHgBcrrrs=
+
+Name: res/layout/data_select_item.xml
+SHA1-Digest: uAUUUa8yCBp8CXzR5IGHpWRZHoc=
+
+Name: res/drawable-xxhdpi-v4/icon_trans_old_finish.png
+SHA1-Digest: vW+cB2G5iYB8iFydK7+EzmvVwwI=
+
+Name: res/drawable-xxhdpi-v4/enable_encrypt_img.png
+SHA1-Digest: xoTKZp2/fF+HiGjVBMCVy6X/U/k=
+
+Name: res/drawable-xxhdpi-v4/progress_fail.png
+SHA1-Digest: MeDqGC0RZcP7lsGjU2h+uunPiLw=
+
+Name: jcifs/smb/BufferCache.jav
+SHA1-Digest: 0GjhaU5TdGCcMfAb0XDEwCI+NZg=
+
+Name: res/drawable-xxhdpi-v4/result_fail_bg.png
+SHA1-Digest: i8geN3bbeYaukF9GWkAoPvzlC2E=
+
+Name: res/drawable-xxhdpi-v4/audio_category.png
+SHA1-Digest: 9r/dY9M6C/+ejPCMWzvdSw4bmRQ=
+
+Name: res/drawable-xxhdpi-v4/transing_progress_fg_sender.png
+SHA1-Digest: XCq/CjrwNxkBqGARxfbjkjyTmjU=
+
+Name: jcifs/dcerpc/rpc.idl
+SHA1-Digest: BbMIRFDg3CtVtyrYOorFQa8kHWs=
+
+Name: res/layout/trans_progress_page.xml
+SHA1-Digest: jKt+CKO/pPJLgQjmRfvZ+6riWJA=
+
+Name: res/drawable-xxhdpi-v4/icon_trans_new_finish.png
+SHA1-Digest: LBL3Z4U7HHUlfEZes3hRHLqzgWI=
+
+Name: res/drawable-xxhdpi-v4/trans_arrows_2.png
+SHA1-Digest: HcweQDAvs91qOcAF/PNgiEEudK0=
+
+Name: res/drawable-xxhdpi-v4/icon_new_device.png
+SHA1-Digest: 5VaSk78HWpJReIO/X5YoKlBJLbw=
+
+Name: res/layout/trans_select_item.xml
+SHA1-Digest: VXSjiY3QbxSrxA30ziJnquwU47M=
+
+Name: res/drawable-xxhdpi-v4/icon_newphone.png
+SHA1-Digest: MEjbX+7gA/m17HVv3cPJ5+9ANK8=
+
+Name: res/layout/cloud_backup_info_item.xml
+SHA1-Digest: HgcZhnxnHFm9wj7F3iH8N+whpNU=
+
+Name: res/drawable-xxhdpi-v4/transing_progress_fg.png
+SHA1-Digest: qJJ9fU0+r1cYpELqUv+HaQrBeMM=
+
+Name: res/drawable-ldrtl-xxhdpi-v4/router_imgxxhdpi.png
+SHA1-Digest: niQgMORIOaejPET9v+iVlAbb6L8=
+
+Name: res/drawable-xxhdpi-v4/file_icon_folder.png
+SHA1-Digest: B/YLnMVXJkUhLAUEW3ZhWAWkxTI=
+
+Name: res/drawable-xxhdpi-v4/sdcard_category.png
+SHA1-Digest: IENmRfXB3MhTguBcbQ8Q+ZvN47k=
+
+Name: res/drawable-xxhdpi-v4/result_succeed_bg.png
+SHA1-Digest: 32wyQyiCiDKmI83PBRKH4vcOPzM=
+
+Name: res/drawable-xxhdpi-v4/backup_action_mode_bg.9.png
+SHA1-Digest: +0zNZ7r8Bxj/hbcacf0cAkqqiqQ=
+
+Name: res/drawable-xxhdpi-v4/trans_main_tutor.png
+SHA1-Digest: 0JzK8RfRbiCr4ZXWL4yecyzmUm0=
+
+Name: res/drawable-ldrtl-xxhdpi-v4/router_img.png
+SHA1-Digest: G2p/yWeKZXzjOWjHeSlDllFMlWQ=
+
+Name: res/drawable-xxhdpi-v4/circle_progress_background.png
+SHA1-Digest: zqya0dXzP4d6V5yKyrXYLkc3+s4=
+
+Name: res/drawable-xxhdpi-v4/trans_detail_f_n.9.png
+SHA1-Digest: V9GxRBrQ+3MqYzGuDqG1Zh8FzsQ=
+
+Name: res/drawable-xxhdpi-v4/user_data_category.png
+SHA1-Digest: sQgNAMSPNYS2UPW1AuvCAa1EzuU=
+
+Name: res/drawable-xxhdpi-v4/backup_list_lock.png
+SHA1-Digest: piGjhJOsSKcrUwRhmWDp4bpqtkg=
+
+Name: res/layout/progress_result.xml
+SHA1-Digest: Bgdv1gxRZezc6fVDKvdb6CG3+wg=
+
+Name: res/drawable/trans_detail.xml
+SHA1-Digest: 5IdiRI0ofgr7w92PjjfRpYhzDAc=
+
+Name: jcifs/dcerpc/DcerpcHandle.java.0
+SHA1-Digest: WmQyUrDWHrpqfN420YRJ4q61TI8=
+
+Name: res/drawable-xxhdpi-v4/icon_old_phone.png
+SHA1-Digest: tVgohuRzvD8xingpOh1FK2/YFII=
+
+Name: javax/servlet/http/LocalStrings_ja.properties
+SHA1-Digest: P46fuciWSFLXk/F0FL/XFSVlJG4=
+
+Name: res/drawable-ldrtl-xhdpi-v4/router_imgxhdpi.png
+SHA1-Digest: B7b4cvJcmV5XaDjj+ldo+Neruuc=
+
+Name: res/drawable-xxhdpi-v4/icon.png
+SHA1-Digest: ylUqf/EJ8dNCaTEwaZNLvSyLSRc=
+
+Name: res/layout/enable_encrypt.xml
+SHA1-Digest: QhJZ3/Mtpxi4m1t5T1RXz/9a5MU=
+
+Name: jcifs/dcerpc/msrpc/lsarpc.idl
+SHA1-Digest: HRZWb+QXRPBpXoejWhGULiEPufo=
+
+Name: res/drawable-xxhdpi-v4/trans_arrows_1.png
+SHA1-Digest: rqSrtIZxun9OJrEWt7GD2UJnr2c=
+

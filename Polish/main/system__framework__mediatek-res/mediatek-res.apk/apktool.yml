@@ -1,0 +1,23 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: mediatek-res.apk
+compressionType: false
+doNotCompress:
+- arsc
+- db
+isFrameworkApk: true
+packageInfo:
+  forcedPackageId: '8'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '21'
+  targetSdkVersion: '21'
+sharedLibrary: false
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.1.0-285da3-SNAPSHOT
+versionInfo:
+  versionCode: '21'
+  versionName: 5.0.2

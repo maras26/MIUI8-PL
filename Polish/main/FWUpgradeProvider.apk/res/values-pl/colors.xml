@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="folder_ui_white_color">#ffffffff</color>
+    <color name="folder_ui_common_color">#ff333333</color>
+    <color name="folder_ui_title_color">#ffffffff</color>
+    <color name="folder_ui_link_color">#ffffffff</color>
+    <color name="folder_common_title_color">#ffffffff</color>
+    <color name="folder_ui_appdetail_bottom_color">#fff9f9f9</color>
+    <color name="folder_ui_appdetail_bg_color">#ffffffff</color>
+    <color name="folder_ui_appdetail_app_version_color">#ff333333</color>
+    <color name="folder_view_myprogressbar_text_color">#ffffffff</color>
+    <color name="progress_default_circle_color">#c0282828</color>
+    <color name="progress_default_progress_color">#11ffffff</color>
+    <color name="holo_green_light">#33333333</color>
+    <color name="holo_green_dark">#33999999</color>
+</resources>

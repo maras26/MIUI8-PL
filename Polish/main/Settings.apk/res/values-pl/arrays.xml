@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="status_bar_style_entries">
+        <item>Przewijane</item>
+        <item>Siatka</item>
+    </string-array>
     <string-array name="timezone_filters">
         <item>Ameryka</item>
         <item>Europa</item>
@@ -44,8 +48,6 @@
         <item>M</item>
         <item>L</item>
         <item>XL</item>
-        <item>XXL</item>
-        <item>XXXL</item>
     </string-array>
     <string-array name="tts_rate_entries">
         <item>Bardzo wolno</item>
@@ -98,6 +100,9 @@
         <item>TLS</item>
         <item>TTLS</item>
         <item>PWD</item>
+        <item>SIM</item>
+        <item>AKA</item>
+        <item>"AKA'"</item>
     </string-array>
     <string-array name="wifi_p2p_wps_setup">
         <item>Naciśnij przycisk</item>
@@ -132,6 +137,10 @@
         <item>Zawsze</item>
         <item>Tylko podczas ładowania</item>
         <item>Nigdy</item>
+    </string-array>
+    <string-array name="data_usage_data_range">
+        <item>Ostatnie 30 dni</item>
+        <item>Ustaw cykl użycia danych...</item>
     </string-array>
     <string-array name="wifi_frequency_band_entries">
         <item>Automatyczne</item>
@@ -318,6 +327,7 @@
         <item>Cień opadający</item>
     </string-array>
     <string-array name="captioning_preset_selector_titles">
+        <item>Ustawienia domyślne aplikacji</item>
         <item>Biały na czarnym</item>
         <item>Czarny na białym</item>
         <item>Żółty na czarnym</item>
@@ -470,10 +480,11 @@
         <item>Pamięć podręczna (klient aktywności)</item>
         <item>Pamięć podręczna (pusta)</item>
     </string-array>
-    <string-array name="haptic_feedback_level_entries">
-        <item>Mocna</item>
-        <item>Średnia</item>
-        <item>Słaba</item>
+    <string-array name="haptic_feedback_level_texts">
+        <item>Wyłączone</item>
+        <item>Słabe</item>
+        <item>Średnie</item>
+        <item>Mocne</item>
     </string-array>
     <string-array name="media_feedback_level_entries">
         <item>Mocna</item>
@@ -511,15 +522,19 @@
     <string-array name="led_color_entries">
         <item>Niebieski</item>
         <item>Czerwony</item>
-        <item>Pomarańczowy</item>
+        <item>Żółty</item>
         <item>Zielony</item>
         <item>Błękitny</item>
         <item>Biały</item>
         <item>Różowy</item>
     </string-array>
+    <string-array name="wifi_wapi_key_type">
+        <item>WAPI ASCII</item>
+        <item>WAPI heksadecymalnie</item>
+    </string-array>
     <string-array name="screen_key_press_action">
         <item>Ostatnie aplikacje</item>
-        <item>Pokaż menu podręczne</item>
+        <item>Pokaż menu</item>
     </string-array>
     <string-array name="screen_key_long_press_action">
         <item>Brak funkcji</item>
@@ -527,6 +542,7 @@
         <item>Uruchom Asystenta Głosowego (chiński)</item>
         <item>Uruchom Google Now</item>
         <item>Zamknij aplikację</item>
+        <item>Uruchom wyszukiwanie</item>
         <item>Pokaż menu podręczne</item>
     </string-array>
     <string-array name="screen_key_long_press_timeout">
@@ -560,12 +576,6 @@
         <item>Windows Vista lub nowszy</item>
         <item>OSX</item>
         <item>Linux</item>
-    </string-array>
-    <string-array name="msd_pc_system_download_summary">
-        <item>@string/msd_driver_download_xp</item>
-        <item></item>
-        <item>@string/msd_driver_download_mac</item>
-        <item></item>
     </string-array>
     <string-array name="msd_pc_system_install_summary">
         <item>2.Postępuj wg instrukcji na ekranie</item>
@@ -634,12 +644,9 @@
         <item>Ręczne łączenie</item>
         <item>Zawsze pytaj</item>
     </string-array>
-    <string-array name="slideshow_time_entries">
-        <item>5 min</item>
-        <item>15 min</item>
-        <item>30 min</item>
-        <item>1 godz.</item>
-        <item>Ciągły</item>
+    <string-array name="wifi_ssid_type_entries">
+        <item>Automatyczne łączenie</item>
+        <item>Ręczne łączenie</item>
     </string-array>
     <string-array name="preferred_app_entries">
         <item>Launcher</item>
@@ -689,13 +696,19 @@
         <item>4 cale</item>
         <item>3,5 cala</item>
     </string-array>
+    <string-array name="lock_screen_secure_after_timeout_values">
+        <item>0</item>
+        <item>30000</item>
+        <item>60000</item>
+        <item>120000</item>
+        <item>300000</item>
+    </string-array>
     <string-array name="lock_screen_secure_after_timeout_entries">
         <item>natychmiast</item>
+        <item>po 30 s</item>
         <item>po 1 min</item>
         <item>po 2 min</item>
         <item>po 5 min</item>
-        <item>po 15 min</item>
-        <item>po 30 min</item>
     </string-array>
     <string-array name="fluency_mode_entries">
         <item>Wyłącz animacje systemowe</item>
@@ -703,7 +716,7 @@
     </string-array>
     <string-array name="fluency_mode_summaries">
         <item>Polepsza płynność urządzenia</item>
-        <item>Zmniejsza wydajność urządzenia</item>
+        <item>Może zmniejszyć wydajność urządzenia</item>
     </string-array>
     <string-array name="fluency_mode_confirms">
         <item>Uruchomić ponownie by zastosować zmiany?</item>
@@ -721,10 +734,196 @@
         <item>XXL</item>
         <item>XXXL</item>
     </string-array>
+    <string-array name="organized_locales">
+        <item>sk</item>
+        <item>cs</item>
+        <item>en</item>
+        <item>pl</item>
+        <item>be</item>
+        <item>bo</item>
+        <item>bw</item>
+        <item>br</item>
+        <item>cm</item>
+        <item>cl</item>
+        <item>co</item>
+        <item>cd</item>
+        <item>cr</item>
+        <item>ci</item>
+        <item>ec</item>
+        <item>eg</item>
+        <item>sv</item>
+        <item>gq</item>
+        <item>et</item>
+        <item>fk</item>
+        <item>fr</item>
+        <item>gf</item>
+        <item>gh</item>
+        <item>gt</item>
+        <item>gy</item>
+        <item>hn</item>
+        <item>hk</item>
+        <item>in</item>
+        <item>id</item>
+        <item>ir</item>
+        <item>iq</item>
+        <item>il</item>
+        <item>jo</item>
+        <item>ke</item>
+        <item>kw</item>
+        <item>lb</item>
+        <item>ls</item>
+        <item>ly</item>
+        <item>lt</item>
+        <item>mw</item>
+        <item>my</item>
+        <item>mr</item>
+        <item>mx</item>
+        <item>ma</item>
+        <item>mz</item>
+        <item>mm</item>
+        <item>na</item>
+        <item>ni</item>
+        <item>ng</item>
+        <item>om</item>
+        <item>ps</item>
+        <item>pa</item>
+        <item>py</item>
+        <item>pe</item>
+        <item>ph</item>
+        <item>qa</item>
+        <item>ru</item>
+        <item>rw</item>
+        <item>sa</item>
+        <item>sn</item>
+        <item>sg</item>
+        <item>so</item>
+        <item>za</item>
+        <item>gs</item>
+        <item>kr</item>
+        <item>sd</item>
+        <item>sr</item>
+        <item>sz</item>
+        <item>ch</item>
+        <item>sy</item>
+        <item>tw</item>
+        <item>tz</item>
+        <item>th</item>
+        <item>tn</item>
+        <item>tr</item>
+        <item>ug</item>
+        <item>ua</item>
+        <item>ae</item>
+        <item>uy</item>
+        <item>ve</item>
+        <item>vn</item>
+        <item>ye</item>
+        <item>zm</item>
+        <item>zw</item>
+    </string-array>
+    <string-array name="broadcast_locales">
+        <item>SK</item>
+        <item>CS</item>
+        <item>DZ</item>
+        <item>AO</item>
+        <item>AR</item>
+        <item>BH</item>
+        <item>BD</item>
+        <item>BE</item>
+        <item>BO</item>
+        <item>BW</item>
+        <item>BR</item>
+        <item>CM</item>
+        <item>CL</item>
+        <item>CO</item>
+        <item>CD</item>
+        <item>CR</item>
+        <item>CI</item>
+        <item>CU</item>
+        <item>DO</item>
+        <item>EC</item>
+        <item>EG</item>
+        <item>SV</item>
+        <item>GQ</item>
+        <item>ET</item>
+        <item>FK</item>
+        <item>FR</item>
+        <item>GF</item>
+        <item>GH</item>
+        <item>GT</item>
+        <item>GY</item>
+        <item>HT</item>
+        <item>HN</item>
+        <item>IN</item>
+        <item>IR</item>
+        <item>IQ</item>
+        <item>IL</item>
+        <item>JM</item>
+        <item>JO</item>
+        <item>KZ</item>
+        <item>KE</item>
+        <item>KW</item>
+        <item>LB</item>
+        <item>LS</item>
+        <item>LY</item>
+        <item>LT</item>
+        <item>MW</item>
+        <item>MR</item>
+        <item>MU</item>
+        <item>MX</item>
+        <item>MA</item>
+        <item>MZ</item>
+        <item>MM</item>
+        <item>NA</item>
+        <item>NP</item>
+        <item>NI</item>
+        <item>NG</item>
+        <item>KP</item>
+        <item>OM</item>
+        <item>PK</item>
+        <item>PS</item>
+        <item>PA</item>
+        <item>PY</item>
+        <item>PE</item>
+        <item>PH</item>
+        <item>QA</item>
+        <item>RU</item>
+        <item>RW</item>
+        <item>SA</item>
+        <item>SN</item>
+        <item>SO</item>
+        <item>ZA</item>
+        <item>GS</item>
+        <item>KR</item>
+        <item>ES</item>
+        <item>LK</item>
+        <item>SD</item>
+        <item>SR</item>
+        <item>SZ</item>
+        <item>CH</item>
+        <item>SY</item>
+        <item>TW</item>
+        <item>TZ</item>
+        <item>TH</item>
+        <item>TN</item>
+        <item>TR</item>
+        <item>UG</item>
+        <item>UA</item>
+        <item>AE</item>
+        <item>US</item>
+        <item>UY</item>
+        <item>UZ</item>
+        <item>VE</item>
+        <item>VN</item>
+        <item>YE</item>
+        <item>ZM</item>
+        <item>ZW</item>
+    </string-array>
     <string-array name="common_password_business_names">
         <item>Ekran blokady</item>
         <item>Kontrola rodzicielska</item>
         <item>Menedżer plików</item>
+        <item>Blokada aplikacji</item>
+        <item>Profile</item>
     </string-array>
     <string-array name="alarm_repeat_type">
         <item>Codziennie</item>
@@ -736,6 +935,18 @@
         <item>W dni robocze</item>
         <item>Własne</item>
     </string-array>
+    <string-array name="screen_key_position_action">
+        <item>Lewy: Menu | Prawy: Wstecz (klasycznie)</item>
+        <item>Lewy: Wstecz | Prawy: Menu</item>
+    </string-array>
+    <string-array name="color_picker">
+        <item>Teal</item>
+        <item>Niebieski</item>
+        <item>Indygo</item>
+        <item>Fioletowy</item>
+        <item>Różowy</item>
+        <item>Czerwony</item>
+    </string-array>
     <string-array name="install_non_market_app_entries">
         <item>Włącz (zalecane)</item>
         <item>Nie zezwalaj</item>
@@ -744,31 +955,48 @@
         <item>Włącz</item>
         <item>Nie zezwalaj</item>
     </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>Preferowane Wi-Fi</item>
+        <item>Preferowana sieć komórkowa</item>
+    </string-array>
     <string-array name="emergency_tone_entries">
         <item>Wyłączony</item>
         <item>Alarm</item>
         <item>Wibracje</item>
-    </string-array>
-    <string-array name="select_runtime_titles">
-        <item>Dalvik</item>
-        <item>ART</item>
-        <item>ART (debugowanie)</item>
     </string-array>
     <string-array name="select_runtime_summaries">
         <item>Użyj Dalvik</item>
         <item>Użyj ART</item>
         <item>Użyj kompilacji debugowania ART</item>
     </string-array>
-    <string-array name="pink_panel_led_color_entries">
-        <item>Liliowy</item>
-        <item>Rubinowy</item>
-        <item>Pomarańczowy</item>
-        <item>Zielony</item>
-        <item>Magenta</item>
+    <string-array name="slideshow_time_entries">
+        <item>5 min</item>
+        <item>15 min</item>
+        <item>30 min</item>
+        <item>1 godz.</item>
+        <item>Ciągły</item>
     </string-array>
     <string-array name="miracast_policies">
         <item>Krótkie opóźnienie</item>
         <item>Standardowe</item>
         <item>Lepsza jakość</item>
+    </string-array>
+    <string-array name="pink_panel_led_color_entries">
+        <item>Liliowy</item>
+        <item>Rubinowy</item>
+        <item>Żółty</item>
+        <item>Zielony</item>
+        <item>Magenta</item>
+    </string-array>
+    <string-array name="select_runtime_titles">
+        <item>Dalvik</item>
+        <item>ART</item>
+        <item>ART (debugowanie)</item>
+    </string-array>
+    <string-array name="eap_method_without_sim_auth">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
     </string-array>
 </resources>

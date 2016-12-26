@@ -25,18 +25,19 @@
     <string name="miui_summary_updating">"  Aktualizacja systemu...  "</string>
     <string name="miui_summary_now_version">"Aktualna wersja "</string>
     <string name="miui_summary_no_new_version">Zainstalowana wersja:</string>
-    <string name="button_text_check" />
+    <string name="button_text_check">Szukaj aktualizacji</string>
     <string name="button_text_update">Aktualizuj</string>
     <string name="button_text_reboot">Uruchom ponownie</string>
     <string name="button_text_reboot_hm">Teraz</string>
     <string name="button_text_later_reboot">Później</string>
-    <string name="download_title_first">Sprawdzanie aktualizacji…</string>
-    <string name="download_title_full_download">Sprawdzanie pobierania…</string>
+    <string name="download_title_first">Pobieranie informacji…</string>
+    <string name="download_title_full_download">Pobieranie informacji…</string>
     <string name="download_title">Pobieranie (%s)</string>
     <string name="apply_title">Aktualizowanie (%s)</string>
     <string name="timer_title">Restart za %d s</string>
-    <string name="progress_title_checking">Sprawdzanie aktualizacji…</string>
-    <string name="menu_title_download_current_rom">Pobierz aktualizację MIUIPolska</string>
+    <string name="progress_title_checking">Szukanie aktualizacji…</string>
+    <string name="menu_more_button">menu</string>
+    <string name="menu_title_download_current_rom">Pobierz aktualizację Xiaomi.eu</string>
     <string name="menu_title_pick_rom_file">Zainstaluj aktualizację z pliku .zip</string>
     <string name="menu_title_recovery">Uruchom w recovery</string>
     <string name="menu_title_current_version_log">Co nowego?</string>
@@ -55,6 +56,7 @@
     <string name="download_success_reboot_immediately">Uruchom ponownie</string>
     <string name="update_success">Aktualizacja zakończona!</string>
     <string name="install_failed">Instalacja nieudana</string>
+    <string name="download_failed">Pobieranie nieudane</string>
     <string name="download_current_rom">Zainstaluj</string>
     <string name="later">Później</string>
     <string name="notification_update_new_version">Dostępna aktualizacja</string>
@@ -67,7 +69,7 @@
     <string name="notification_auto_reboot_seccess_title">Urządzenie zaktualizowane!</string>
     <string name="notification_reboot_seccess_des">Udostępnij informacje o aktualizacji.</string>
     <string name="notification_share">Udostępnij</string>
-    <string name="notification_downloading">Pobieranie…</string>
+    <string name="notification_downloading">Pobieranie aktualizacji…</string>
     <string name="notification_updating">Aktualizowanie…</string>
     <string name="set_network_title">Brak połączenia z siecią</string>
     <string name="set_network_msg">Brak połączenia z Internetem lub aplikacja ma zablokowany dostęp do sieci</string>
@@ -90,23 +92,23 @@ Zgłoś ten problem na miuipolska.pl.
     <string name="clean_up_button">Czyść</string>
     <string name="no_wifi_title">Użycie danych</string>
     <string name="no_wifi_msg">Sieć Wi-Fi została rozłączona. Pobieranie z użyciem danych mobilnych spowoduje naliczenie opłat za transfer.</string>
-    <string name="go_on_download">Dalej</string>
+    <string name="go_on_download">Pobierz</string>
     <string name="pause">Wstrzymaj</string>
     <string name="repeat">Ponów</string>
     <string name="user_begin">Pobierz</string>
-    <string name="recovery_failed_title">Użyj Mi PC Suite do instalacji</string>
+    <string name="recovery_failed_title">Użyj Mi PC Suite do zaktualizowania systemu</string>
     <string name="recovery_power_not_enough_title">Niski stan ładowania</string>
     <string name="recovery_power_not_enough_msg">Naładuj telefon do co najmniej 30% przed wykonaniem aktualizacji</string>
-    <string name="recovery_power_not_enough_msg_plugged">Naładuj telefon do 15% przed wykonaniem aktualizacji przy podłączonym ładowaniu</string>
+    <string name="recovery_power_not_enough_msg_plugged">Naładuj telefon do 30% przed wykonaniem aktualizacji przy podłączonym ładowaniu</string>
     <string name="recovery_failed_msg">"Twoje urządzenie nie posiada wystarczającej ilości miejsca w pamięci by przejść do Recovery i zainstalować system. 
 Spróbuj wykorzystać Mi PC Suite:
 http://zhushou.xiaomi.com"</string>
     <string name="recovery_failed_button">OK</string>
     <string name="recovery_failed_notification_msg">Nie można przejść do recovery</string>
-    <string name="validate_pkg_failed_title">Nie można zweryfikować pliku aktualizacji</string>
+    <string name="validate_pkg_failed_title">Nie można zweryfikować pliku aktualizacji. Spróbuj zainstalować plik z poziomu TWRP recovery.</string>
     <string name="validate_pkg_failed_msg">"The update you downloaded doesn't match our data. Try downloading it again."</string>
     <string name="user_intertup_download_title">Update download paused</string>
-    <string name="user_intertup_download_msg">Downloads have been paused. You can unpause them any time in the Updater app.</string>
+    <string name="user_intertup_download_msg">Pobieranie zostało wstrzymane. Może je wznowić w aplikacji Aktualizacje.</string>
     <string name="check_update_when_wifi_available_sum">Sprawdza aktualizacje przy połączeniu z Wi-Fi</string>
     <string name="important_suggestion">Zmiana w Polityce Prywatności</string>
     <string name="auto_dialog_msg">Polityka Prywatności została zaktualizowana.</string>
@@ -159,7 +161,7 @@ http://zhushou.xiaomi.com"</string>
     <string name="notification_restart">Spróbuj ponownie</string>
     <string name="autosetmode">Ustawienia aktualizacji</string>
     <string name="on_checking" />
-    <string name="auto_update">Pobierz aktualizacje</string>
+    <string name="auto_update">Automatyczna aktualizacja</string>
     <string name="update_downfull_no_info_title">Błąd pobierania</string>
     <string name="update_downfull_no_info_sum">Spróbuj ponownie później</string>
     <string name="set_auto_update_title">Pobieranie aktualizacji</string>
@@ -176,11 +178,16 @@ http://zhushou.xiaomi.com"</string>
     <string name="confirm_local_package_wipe_title">Wymazać dane?</string>
     <string name="confirm_local_package_wipe_msg">Osobiste dane użytkownika zostaną wymazane. Upewnij się, że wykonałeś kopię swoich danych.</string>
     <string name="confirm_local_package_wipe_btn">Wymaż dane i zaktualizuj</string>
+    <string name="dialog_reboot_title">System update</string>
+    <string name="dialog_reboot_message">MIUI zostanie zaktualizowane. Proces aktualizacji może zająć 5-20 minut. Podłącz urządzenie do ładowania i nie restartuj w trakcie aktualizacji.</string>
+    <string name="dialog_reboot_yes">Update</string>
     <string name="update_feedback">Opinie o MIUI</string>
     <string name="update_feedback_end">Przesyłanie opinii zakończone</string>
     <string name="update_feedback_end_sum">Możesz przesyłać opinie o MIUI w każdy wtorek</string>
     <string name="update_feedback_need_update">Nie korzystasz obecnie z najnowszej wersji rozwojowej. Uaktualnij MIUI aby móc głosować</string>
     <string name="update_feedback_expired">Przesyłanie opinii w tym tygodniu dobiegło końca, lecz możesz wziąć w nim udział w następny wtorek</string>
+    <string name="update_feedback_need_account">Musisz wpisać się na konto Xiaomi</string>
+    <string name="update_feedback_need_network">Połącz się z siecią</string>
     <string name="update_happy">Super!</string>
     <string name="update_general">Ok</string>
     <string name="update_sad">Średnio na jeża</string>
@@ -212,8 +219,8 @@ http://zhushou.xiaomi.com"</string>
     <string name="comment_invalid">Oceń aktualizację (dotknij gwiazdek)</string>
     <string name="comment_upload_not_logined">Musisz wpisać się na konto Xiaomi</string>
     <string name="fourgrid_hint_text">Dziękujemy za korzystanie z wersji rozwojowej MIUI. Powiedz nam co o tym myślisz i jak ulepszyć w przyszłości MIUI.</string>
-    <string name="fourgrid_notificaiont">Pokaż na pasku statusu</string>
-    <string name="fourgrid_no_notificaiont">Nie pokazuj na pasku</string>
+    <string name="fourgrid_notificaiont">Pokaż na pasku stanu</string>
+    <string name="fourgrid_no_notificaiont">Nie pokazuj na pasku stanu</string>
     <string name="submit_progress">Wysyłanie...</string>
     <string name="submit_success">Wysłano pomyślnie!</string>
     <string name="submit_fail">Nie udało się wysłać</string>
@@ -230,14 +237,17 @@ Update your device and try again"</string>
     <string name="vote_hint">Otrzymasz 20 punktów na forum MIUI po zagłosowaniu</string>
     <string name="vote_join">Zagłosowano</string>
     <string name="vote_experience">Forum experience</string>
-    <string name="vote_error3">"Couldn't sign in.
-Try signing in your Mi Account again."</string>
+    <string name="vote_error3">"Nie można się zalogować.
+Spróbuj ponownie zalogować się na konto Xiaomi."</string>
     <string name="vote_error4">You already submitted feedback</string>
     <string name="vote_error5">"Something went wrong
 Couldn't submit feedback"</string>
+    <string name="miui_BBS">" &lt;a href=https://miuipolska.pl/forum>Przejd&amp;#378; na forum&lt;/a> "</string>
     <string name="welcom_title">Witaj w MIUI 7</string>
     <string name="welcom_message">Wszystko gotowe</string>
     <string name="welcom_button">OK</string>
-    <string name="downloading_description">Pobieranie...</string>
-    <string name="url_down">https://basketbuild.com/uploads/devs/Acid/%1$s/MIUIPolska_%2$s_%1$s-%3$s.zip</string>
+    <string name="notification_uncrypt_summary_hm">Uruchom ponownie</string>
+    <string name="notification_uncrypt_title_hm">Reboot to apply update</string>
+    <string name="notification_uncrypting">Uncrypting update</string>
+    <string name="uncrypt_title">Uncrypting (%s)</string>
 </resources>

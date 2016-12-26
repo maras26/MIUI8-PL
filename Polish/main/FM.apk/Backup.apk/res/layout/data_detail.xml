@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/data_detail_list" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <ImageView android:background="#ffe5e5e5" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginStart="@dimen/progress_divider_margin_horizontal" android:layout_marginEnd="@dimen/progress_divider_margin_horizontal" />
+    <Button android:gravity="center" android:layout_gravity="center" android:id="@id/data_detail_action" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bottom_button_margin_vertical" android:layout_marginBottom="@dimen/bottom_button_margin_vertical" android:text="@string/button_ok" android:layout_marginStart="@dimen/bottom_button_margin_horizontal" android:layout_marginEnd="@dimen/bottom_button_margin_horizontal" />
+</LinearLayout>
